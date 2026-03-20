@@ -70,6 +70,11 @@
     "tier": "STANDARD"
   },
   {
+    "code": "01989",
+    "name": "Delton Technology",
+    "tier": "STANDARD"
+  },
+  {
     "code": "02026",
     "name": "Pony AI Inc. - W",
     "tier": "STANDARD"
@@ -260,6 +265,11 @@
     "tier": "STANDARD"
   },
   {
+    "code": "02632",
+    "name": "Jiangsu New Vision Automotive",
+    "tier": "STANDARD"
+  },
+  {
     "code": "02635",
     "name": "Nuobikan Artificial Intelligen",
     "tier": "STANDARD"
@@ -395,6 +405,11 @@
     "tier": "STANDARD"
   },
   {
+    "code": "02701",
+    "name": "Nsing Technologies",
+    "tier": "STANDARD"
+  },
+  {
     "code": "02706",
     "name": "海致科技 Haizhi",
     "tier": "STANDARD"
@@ -417,6 +432,11 @@
   {
     "code": "02720",
     "name": "岭外国际 Ridge",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02729",
+    "name": "Zhejiang Galaxis Technology",
     "tier": "STANDARD"
   },
   {
@@ -458,6 +478,11 @@
     "code": "03317",
     "name": "Shenzhen Xunce Technology Co.,",
     "tier": "STANDARD"
+  },
+  {
+    "code": "03355",
+    "name": "FS.COM Limited",
+    "tier": "HIGH"
   },
   {
     "code": "03378",
