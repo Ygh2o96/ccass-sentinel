@@ -33,11 +33,12 @@ ALERTS_DIR = REPO_ROOT / "alerts"
 
 HKEX_URL = "https://www3.hkexnews.hk/sdw/search/searchsdw.aspx"
 PAT = re.compile(
-    r'<td class="participant-id"[^>]*>\s*<div[^>]*>([A-Z]\d{5})</div>'
-    r'.*?<td class="participant-name"[^>]*>\s*<div[^>]*>(.*?)</div>'
-    r'.*?<td class="shareholding text-right"[^>]*>\s*<div[^>]*>([\d,]+)</div>',
-    re.DOTALL,
-)
+    r'<div class="mobile-list-body">([ABC]\d{5})</div>\s*</td>\s*'
+    r'<td class="col-participant-name">\s*<div[^>]*>.*?</div>\s*'
+    r'<div class="mobile-list-body">(.*?)</div>\s*</td>\s*'
+    r'<td class="col-address">.*?</td>\s*'
+    r'<td class="col-shareholding text-right">\s*<div[^>]*>.*?</div>\s*'
+    r'<div class="mobile-list-body">([\d,]+)</div>', re.DOTALL)
 WORKERS = 3  # Conservative for daily runs
 JITTER = (0.8, 2.0)
 
@@ -57,36 +58,45 @@ def get_viewstate():
     s = get_session()
     r = s.get(HKEX_URL, timeout=(5, 15))
     r.raise_for_status()
-    vs = re.search(r'id="__VIEWSTATE"\s+value="([^"]+)"', r.text)
-    vsg = re.search(r'id="__VIEWSTATEGENERATOR"\s+value="([^"]+)"', r.text)
-    ev = re.search(r'id="__EVENTVALIDATION"\s+value="([^"]+)"', r.text)
-    if not all([vs, vsg, ev]):
+    vs = re.search(r'id="__VIEWSTATE"\s+value="([^"]*)"', r.text)
+    vsg = re.search(r'id="__VIEWSTATEGENERATOR"\s+value="([^"]*)"', r.text)
+    ev = re.search(r'id="__EVENTVALIDATION"\s+value="([^"]*)"', r.text)
+    if not all([vs, vsg]):
         return None
-    return {"vs": vs.group(1), "vsg": vsg.group(1), "ev": ev.group(1)}
+    return {"vs": vs.group(1), "vsg": vsg.group(1), "ev": ev.group(1) if ev else ""}
 
 def scrape_stock(code, date_str, viewstate):
     """Scrape a single stock's CCASS data. Returns list of holders or None."""
     s = get_session()
     time.sleep(random.uniform(*JITTER))
     
+    # Match proven collector POST body exactly
     data = {
+        "__EVENTTARGET": "btnSearch",
+        "__EVENTARGUMENT": "",
         "__VIEWSTATE": viewstate["vs"],
         "__VIEWSTATEGENERATOR": viewstate["vsg"],
-        "__EVENTVALIDATION": viewstate["ev"],
         "today": date_str.replace("/", ""),
-        "txtShareholdingDate": date_str,
-        "txtStockCode": code,
-        "btnSearch": "Search",
         "sortBy": "shareholding",
         "sortDirection": "desc",
+        "originalShareholdingDate": "",
         "alertMsg": "",
+        "txtShareholdingDate": date_str,
+        "txtStockCode": code,
+        "txtStockName": "",
+        "txtParticipantID": "",
+        "txtParticipantName": "",
+        "txtSelPartID": "",
     }
+    # Only include EventValidation if present
+    if viewstate.get("ev"):
+        data["__EVENTVALIDATION"] = viewstate["ev"]
     
     try:
         r = s.post(HKEX_URL, data=data, timeout=(3.05, 20))
         if r.status_code != 200:
             return None
-        if "No match record" in r.text or "No record" in r.text:
+        if len(r.text) < 15000:
             return None
         
         matches = PAT.finditer(r.text)
@@ -182,19 +192,17 @@ def detect_anomalies(code, today_data, history):
         })
     
     # Alert 3: Cluster broker appeared or grew >5pp
+    # Note: prior data from Tier 1 may not have holders. Load from Tier 2 if available.
     cluster_pids = {"B02082", "B02120", "B02165", "B01959"}
     af = today_data.get("adjusted_float", 0)
-    if af > 0:
+    prior_holders = prior.get("holders", [])
+    prior_af = prior.get("adjusted_float", 0)
+    if af > 0 and prior_holders and prior_af > 0:
+        prior_map = {h["pid"]: h["shares"] / prior_af * 100 for h in prior_holders}
         for h in today_data.get("holders", []):
             if h["pid"] in cluster_pids:
                 pct_now = h["shares"] / af * 100
-                # Find prior
-                pct_prior = 0
-                for ph in prior.get("holders", []):
-                    if ph["pid"] == h["pid"]:
-                        paf = prior.get("adjusted_float", 0)
-                        pct_prior = ph["shares"] / paf * 100 if paf > 0 else 0
-                        break
+                pct_prior = prior_map.get(h["pid"], 0)
                 if pct_now - pct_prior > 5:
                     alerts.append({
                         "type": "CLUSTER_ALERT",
@@ -291,6 +299,19 @@ def main():
                     # Initialize stock in timeseries
                     if code not in ts:
                         ts[code] = {}
+                    
+                    # Inject prior holders from Tier 2 for cluster detection
+                    prior_dates = sorted(ts.get(code, {}).keys())
+                    if prior_dates:
+                        last_date = prior_dates[-1]
+                        if "holders" not in ts[code][last_date]:
+                            holder_file = HOLDERS_DIR / f"{last_date}.json"
+                            if holder_file.exists():
+                                try:
+                                    hdata = json.loads(holder_file.read_text())
+                                    if code in hdata:
+                                        ts[code][last_date]["holders"] = hdata[code]
+                                except: pass
                     
                     # Detect anomalies vs prior
                     alerts = detect_anomalies(code, metrics, ts[code])

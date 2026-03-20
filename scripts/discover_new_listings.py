@@ -39,37 +39,43 @@ def get_viewstate():
     s = requests.Session()
     s.headers["User-Agent"] = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
     r = s.get(HKEX_URL, timeout=(5, 15))
-    vs = re.search(r'id="__VIEWSTATE"\s+value="([^"]+)"', r.text)
-    vsg = re.search(r'id="__VIEWSTATEGENERATOR"\s+value="([^"]+)"', r.text)
-    ev = re.search(r'id="__EVENTVALIDATION"\s+value="([^"]+)"', r.text)
-    if not all([vs, vsg, ev]):
+    vs = re.search(r'id="__VIEWSTATE"\s+value="([^"]*)"', r.text)
+    vsg = re.search(r'id="__VIEWSTATEGENERATOR"\s+value="([^"]*)"', r.text)
+    ev = re.search(r'id="__EVENTVALIDATION"\s+value="([^"]*)"', r.text)
+    if not all([vs, vsg]):
         return None, s
-    return {"vs": vs.group(1), "vsg": vsg.group(1), "ev": ev.group(1)}, s
+    return {"vs": vs.group(1), "vsg": vsg.group(1), "ev": ev.group(1) if ev else ""}, s
 
 
 def check_code(session, code, date_str, viewstate):
     """Returns True if CCASS has data for this code."""
     time.sleep(random.uniform(1.0, 2.5))
     data = {
+        "__EVENTTARGET": "btnSearch",
+        "__EVENTARGUMENT": "",
         "__VIEWSTATE": viewstate["vs"],
         "__VIEWSTATEGENERATOR": viewstate["vsg"],
-        "__EVENTVALIDATION": viewstate["ev"],
         "today": date_str.replace("/", ""),
-        "txtShareholdingDate": date_str,
-        "txtStockCode": code,
-        "btnSearch": "Search",
         "sortBy": "shareholding",
         "sortDirection": "desc",
+        "originalShareholdingDate": "",
         "alertMsg": "",
+        "txtShareholdingDate": date_str,
+        "txtStockCode": code,
+        "txtStockName": "",
+        "txtParticipantID": "",
+        "txtParticipantName": "",
+        "txtSelPartID": "",
     }
+    if viewstate.get("ev"):
+        data["__EVENTVALIDATION"] = viewstate["ev"]
     try:
-        r = session.post(HKEX_URL, data=data, timeout=(3, 15))
+        r = session.post(HKEX_URL, data=data, timeout=(3.05, 15))
         if r.status_code != 200:
             return False
-        if "No match record" in r.text or "No record" in r.text:
+        if len(r.text) < 15000:
             return False
-        # Check if there's actual participant data
-        if "participant-id" in r.text:
+        if "col-participant-id" in r.text:
             return True
         return False
     except:
