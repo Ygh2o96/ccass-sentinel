@@ -1,0 +1,662 @@
+[
+  {
+    "code": "00100",
+    "name": "MiniMax",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "00470",
+    "name": "先导智能 Wuxi Lead",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "00501",
+    "name": "OmniVision",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "00600",
+    "name": "爱芯元智 Axera",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "00638",
+    "name": "Fibocom Wireless Inc. - H  sha",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "00699",
+    "name": "NINGBO JOYSON ELECTRONIC CORP.",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "00800",
+    "name": "WeRide Inc. - W",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "01276",
+    "name": "Jiangsu Hengrui Pharmaceutical",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "01304",
+    "name": "Fortior Technology (Shenzhen) ",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "01333",
+    "name": "Breton Technology Co., Ltd.- H",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "01384",
+    "name": "Deepexi Technology Co., Ltd. -",
+    "tier": "CRITICAL"
+  },
+  {
+    "code": "01641",
+    "name": "红星冷链 Hongxing",
+    "tier": "HIGH"
+  },
+  {
+    "code": "01768",
+    "name": "繁明集团 Busy Ming",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "01828",
+    "name": "FWD Group Holdings Limited",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02026",
+    "name": "Pony AI Inc. - W",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02050",
+    "name": "Zhejiang Sanhua Intelligent Co",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02259",
+    "name": "Zijin Gold International Compa",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02396",
+    "name": "B&K CORPORATION LIMITED - B - ",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02408",
+    "name": "Guangzhou Xiao Noodles Caterin",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02508",
+    "name": "SAINT BELLA Inc.",
+    "tier": "HIGH"
+  },
+  {
+    "code": "02513",
+    "name": "知识图谱 Knowledge Atlas",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02525",
+    "name": "Hesai Group - W",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02539",
+    "name": "Lemo Services Co., Ltd - H sha",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02543",
+    "name": "DAHON TECH (SHENZHEN) CO., LTD",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02546",
+    "name": "Xizang Zhihui Mining Co., Ltd.",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02561",
+    "name": "VISEN Pharmaceuticals -B",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02565",
+    "name": "PegBio Co., Ltd. - B - H share",
+    "tier": "CRITICAL"
+  },
+  {
+    "code": "02569",
+    "name": "Soft International Group Ltd",
+    "tier": "HIGH"
+  },
+  {
+    "code": "02573",
+    "name": "Newtrend Group Holding Co., Lt",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02575",
+    "name": "Xuanzhu Biopharmaceutical Co.,",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02579",
+    "name": "CNGR Advanced Material Co., Lt",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02580",
+    "name": "AUX ELECTRIC CO., LTD.",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02581",
+    "name": "BenQ BM Holding Cayman Corp.",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02583",
+    "name": "Shenzhen Hiphine Precision Tec",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02589",
+    "name": "Auntea Jenny (Shanghai) Indust",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02590",
+    "name": "Beijing Geekplus Technology Co",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02591",
+    "name": "Guangzhou Innogen Pharmaceutic",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02592",
+    "name": "Cloudbreak Pharma Inc. - B",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02595",
+    "name": "GenFleet Therapeutics (Shangha",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02597",
+    "name": "Beijing Xunzhong Communication",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02603",
+    "name": "Xiamen Jihong Co., Ltd - H sha",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02605",
+    "name": "MetaLight Inc.",
+    "tier": "CRITICAL"
+  },
+  {
+    "code": "02609",
+    "name": "Bayzed Health Group Inc",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02610",
+    "name": "Nanshan Aluminium Internationa",
+    "tier": "HIGH"
+  },
+  {
+    "code": "02617",
+    "name": "TransThera Sciences (Nanjing),",
+    "tier": "HIGH"
+  },
+  {
+    "code": "02619",
+    "name": "X.J. Electrics (Hu Bei) Co., L",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02621",
+    "name": "Shouhui Group Ltd.",
+    "tier": "CRITICAL"
+  },
+  {
+    "code": "02625",
+    "name": "Jiangsu Horizon Chain Supermar",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02627",
+    "name": "Ab&B Bio-Tech CO., LTD. JS  - ",
+    "tier": "HIGH"
+  },
+  {
+    "code": "02629",
+    "name": "Mirxes Holding Company Limited",
+    "tier": "HIGH"
+  },
+  {
+    "code": "02630",
+    "name": "Vigonvita Life Sciences Co., L",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02631",
+    "name": "SICC CO., LTD. - H shares",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02635",
+    "name": "Nuobikan Artificial Intelligen",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02637",
+    "name": "Fujian Haixi Pharmaceuticals C",
+    "tier": "CRITICAL"
+  },
+  {
+    "code": "02643",
+    "name": "CaoCao Inc.",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02648",
+    "name": "Anjoy Foods Group Co., Ltd. - ",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02649",
+    "name": "澳仕科 ALSCO",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02650",
+    "name": "Shanghai Zhida Technology Deve",
+    "tier": "CRITICAL"
+  },
+  {
+    "code": "02651",
+    "name": "Wuhan Dazhong Dental Medical C",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02652",
+    "name": "CF PharmTech, Inc. - H shares",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02655",
+    "name": "Guoxia Technology Co., Ltd. - ",
+    "tier": "CRITICAL"
+  },
+  {
+    "code": "02656",
+    "name": "160 Health International Limit",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02657",
+    "name": "SHANGHAI FOREST CABIN COSMETIC",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02658",
+    "name": "Guangdong Tianyu Semiconductor",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02659",
+    "name": "Shanghai Bao Pharmaceuticals C",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02661",
+    "name": "QingSong Health Corporation",
+    "tier": "HIGH"
+  },
+  {
+    "code": "02665",
+    "name": "Seyond Holdings Ltd.",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02670",
+    "name": "Beijing Yunji Technology Co., ",
+    "tier": "CRITICAL"
+  },
+  {
+    "code": "02671",
+    "name": "USAS Building System (Shanghai",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02675",
+    "name": "安锐医疗 Edge Medical",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02676",
+    "name": "Suzhou Novosense Microelectron",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02677",
+    "name": "卓越医疗 Distinct",
+    "tier": "CRITICAL"
+  },
+  {
+    "code": "02685",
+    "name": "Quantgroup Holding Limited",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02687",
+    "name": "SHANGHAI ABLE DIGITAL SCIENCE&",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02691",
+    "name": "Nanhua Futures Co., Ltd. - H s",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02692",
+    "name": "兆威机电 Zhaowei",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02693",
+    "name": "ANHUI JINYAN KAOLIN NEW MATERI",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02695",
+    "name": "Impression Dahongpao Co., Ltd.",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02698",
+    "name": "Softcare Limited",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02706",
+    "name": "海致科技 Haizhi",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02714",
+    "name": "牧原食品 Muyuan",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02715",
+    "name": "埃斯顿 Estun",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02718",
+    "name": "Mininglamp Technology - W",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02720",
+    "name": "岭外国际 Ridge",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02768",
+    "name": "青岛冠中 Qingdao Gon",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02788",
+    "name": "Chuangxin Industries Holdings ",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02865",
+    "name": "Hainan Drinda New Energy Techn",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "02889",
+    "name": "PATEO CONNECT Technology (Shan",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "03200",
+    "name": "大族数控 Hans CNC",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "03268",
+    "name": "美格智能 MeiG",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "03288",
+    "name": "Foshan Haitian Flavouring and ",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "03317",
+    "name": "Shenzhen Xunce Technology Co.,",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "03378",
+    "name": "Hanx Biopharmaceuticals (Wuhan",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "03636",
+    "name": "云南金讯 Yunnan Jinxun",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "03677",
+    "name": "Jiangsu Zenergy Battery Techno",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "03696",
+    "name": "InSilico Medicine Cayman TopCo",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "03750",
+    "name": "Contemporary Amperex Technolog",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "03858",
+    "name": "Jiaxin International Resources",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "03880",
+    "name": "Medtide Inc. - H shares",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "03881",
+    "name": "CiDi Inc. - H shares",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "03887",
+    "name": "HashKey Holdings Limited",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "03986",
+    "name": "兆易创新 GigaDevice",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "06031",
+    "name": "SANY HEAVY INDUSTRY CO., LTD. ",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "06082",
+    "name": "壁仞科技 Biren",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "06090",
+    "name": "BUTONG GROUP",
+    "tier": "HIGH"
+  },
+  {
+    "code": "06166",
+    "name": "CIG SHANGHAI CO., LTD. - H sha",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "06168",
+    "name": "Zhou Liu Fu Jewellery Co., Ltd",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "06600",
+    "name": "OneRobotics (Shenzhen) Co., Lt",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "06603",
+    "name": "IFBH Limited",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "06613",
+    "name": "Lens Technology Co., Ltd. - H ",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "06651",
+    "name": "Beijing 51WORLD Digital Twin T",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "06687",
+    "name": "JST Group Corporation Limited",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "06809",
+    "name": "澜起科技 Montage",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "06831",
+    "name": "Green Tea Group Limited",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "06883",
+    "name": "Eternal Beauty Holdings Limite",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "06887",
+    "name": "Sunshine Lake Pharma Co., Ltd.",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "06938",
+    "name": "瑞博生命 Ribo Life",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "06960",
+    "name": "SHUANGDENG GROUP CO., LTD.  - ",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "06980",
+    "name": "Bama Tea Co., Ltd. - H shares",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "07618",
+    "name": "JINGDONG Industrials, Inc.",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "09606",
+    "name": "Duality Biotherapeutics, Inc. ",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "09609",
+    "name": "Hebei Haiwei Electronic New Ma",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "09611",
+    "name": "龙旗科技 Longcheer",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "09678",
+    "name": "Unisound AI Technology Co., Lt",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "09876",
+    "name": "Ocean One Holding Ltd.",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "09881",
+    "name": "Rongta Technology (Xiamen) Gro",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "09887",
+    "name": "Nanjing Leads Biolabs Co., Ltd",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "09903",
+    "name": "天数智芯 Iluvatar",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "09927",
+    "name": "Seres Group Co., Ltd. - H shar",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "09973",
+    "name": "Chery Automobile Co., Ltd. - H",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "09980",
+    "name": "东鹏饮料 Eastroc",
+    "tier": "STANDARD"
+  },
+  {
+    "code": "09981",
+    "name": "沃尔核材 Woer",
+    "tier": "STANDARD"
+  }
+]

@@ -1,0 +1,68 @@
+name: CCASS Daily Collection
+
+on:
+  schedule:
+    # 10:00 UTC = 18:00 HKT (after T+1 settlement)
+    - cron: '0 10 * * 1-5'
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+      
+      - name: Setup Git LFS
+        run: git lfs install
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      
+      - name: Install dependencies
+        run: pip install requests
+      
+      - name: Run daily collection
+        run: python scripts/daily_runner.py
+        env:
+          PYTHONUNBUFFERED: '1'
+      
+      - name: Commit and push
+        run: |
+          git config --local user.name "CCASS Sentinel Bot"
+          git config --local user.email "sentinel@ccass.dev"
+          
+          # Check if there are changes
+          git add data/ alerts/
+          if git diff --staged --quiet; then
+            echo "No new data collected"
+            exit 0
+          fi
+          
+          DATE=$(date -u +%Y-%m-%d)
+          STOCKS=$(python -c "import json; d=json.load(open('data/ccass_timeseries.json')); print(len(d))")
+          SNAPS=$(python -c "import json; d=json.load(open('data/ccass_timeseries.json')); print(sum(len(v) for v in d.values()))")
+          
+          git commit -m "📡 Daily CCASS: ${DATE} | ${STOCKS} stocks, ${SNAPS} total snapshots"
+          git push
+      
+      - name: Post alerts to issue (if any)
+        if: always()
+        run: |
+          DATE=$(date -u +%Y-%m-%d)
+          ALERT_FILE="alerts/alerts_${DATE}.json"
+          
+          if [ -f "$ALERT_FILE" ]; then
+            COUNT=$(python -c "import json; print(len(json.load(open('${ALERT_FILE}'))))")
+            echo "🚨 ${COUNT} alerts detected — check alerts/${DATE}.json"
+            # TODO: Post to GitHub Issue / send Telegram / WeChat webhook
+          fi
