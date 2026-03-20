@@ -71,10 +71,10 @@ def push_discovery(date, new_codes):
         + "\n".join(f"  {code}" for code in new_codes[:10])
         + "\nAuto-added to watchlist [HIGH]"
     )
-    send(msg)
+    return send(msg)
 
 
 def push_error(date, error_msg):
     """Push system error (silent hours OK — this is infrastructure)."""
     msg = f"❌ CCASS Sentinel Error — {date}\n{error_msg}"
-    send(msg)
+    return send(msg)

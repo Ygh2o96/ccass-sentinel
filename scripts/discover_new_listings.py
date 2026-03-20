@@ -178,4 +178,17 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        import traceback, sys
+        tb = traceback.format_exc()
+        print(f"\n  💥 FATAL ERROR:\n{tb}")
+        try:
+            sys.path.insert(0, str(Path(__file__).resolve().parent))
+            from telegram_push import push_error
+            from datetime import datetime as dt
+            push_error(dt.now().strftime("%Y-%m-%d"), f"discover_new_listings.py crashed:\n{str(e)[:200]}")
+        except:
+            pass
+        sys.exit(1)

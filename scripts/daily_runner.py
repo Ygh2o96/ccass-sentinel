@@ -399,4 +399,18 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        import traceback
+        tb = traceback.format_exc()
+        print(f"\n  💥 FATAL ERROR:\n{tb}")
+        try:
+            sys.path.insert(0, str(Path(__file__).resolve().parent))
+            from telegram_push import push_error
+            date_key = datetime.now().strftime("%Y-%m-%d")
+            push_error(date_key, f"daily_runner.py crashed:\n{str(e)[:200]}")
+            print(f"  📱 Error pushed to Telegram")
+        except Exception as te:
+            print(f"  ⚠️ Telegram error push also failed: {te}")
+        sys.exit(1)
