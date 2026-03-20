@@ -376,11 +376,26 @@ def main():
     
     # Summary stats
     print(f"\n  📈 DAILY SUMMARY:")
+    highlights = []
     for code in codes[:10]:  # Top 10 watchlist
         if code in ts and date_key in ts[code]:
             d = ts[code][date_key]
-            print(f"    {code}: BT5={d.get('broker_top5_pct',0):.1f}% AT5={d.get('adj_top5_pct',0):.1f}% "
-                  f"Parts={d.get('participant_count',0)} TopBrk={d.get('top_broker_name','')[:15]}")
+            line = (f"    {code}: BT5={d.get('broker_top5_pct',0):.1f}% AT5={d.get('adj_top5_pct',0):.1f}% "
+                    f"Parts={d.get('participant_count',0)} TopBrk={d.get('top_broker_name','')[:15]}")
+            print(line)
+            highlights.append(f"{code} BT5={d.get('broker_top5_pct',0):.1f}% {d.get('top_broker_name','')[:12]}")
+    
+    # ── Telegram Push ──
+    if not args.dry_run:
+        try:
+            from telegram_push import push_daily_summary, push_alerts, push_error
+            total_snaps = sum(len(v) for v in ts.values())
+            push_daily_summary(date_key, collected, errors, len(ts), total_snaps, highlights)
+            if all_alerts:
+                push_alerts(date_key, all_alerts)
+            print(f"  📱 Telegram push sent")
+        except Exception as e:
+            print(f"  ⚠️ Telegram push failed: {e}")
 
 
 if __name__ == "__main__":

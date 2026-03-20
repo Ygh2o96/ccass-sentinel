@@ -167,6 +167,14 @@ def main():
     wl.sort(key=lambda x: x["code"])
     WATCHLIST_FILE.write_text(json.dumps(wl, indent=2, ensure_ascii=False))
     print(f"  💾 Watchlist updated: {len(wl)} stocks")
+    
+    # Telegram push
+    try:
+        from telegram_push import push_discovery
+        push_discovery(date_str, discovered)
+        print(f"  📱 Telegram push sent")
+    except Exception as e:
+        print(f"  ⚠️ Telegram push failed: {e}")
 
 
 if __name__ == "__main__":

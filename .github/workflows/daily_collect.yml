@@ -35,6 +35,7 @@ jobs:
         run: python scripts/daily_runner.py
         env:
           PYTHONUNBUFFERED: '1'
+          PYTHONPATH: 'scripts'
       
       - name: Commit and push
         run: |

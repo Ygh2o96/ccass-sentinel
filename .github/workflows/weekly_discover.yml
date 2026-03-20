@@ -30,6 +30,7 @@ jobs:
         run: python scripts/discover_new_listings.py
         env:
           PYTHONUNBUFFERED: '1'
+          PYTHONPATH: 'scripts'
       
       - name: Commit and push
         run: |
