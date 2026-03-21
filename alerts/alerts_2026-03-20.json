@@ -1,0 +1,27 @@
+[
+  {
+    "type": "CLUSTER_ALERT",
+    "severity": "CRITICAL",
+    "message": "01384: Cluster broker B02120 grew 0.0%→5.6% (+5.6pp)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02513: Participant count dropped -23 (214→191)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "06687: Float expanded +6.6% in 1 day (143,741,399→153,166,499)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "07618: BrkT5 jumped +4.6pp in 1 day (35.3%→39.9%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "07618: Float expanded +9.5% in 1 day (246,844,480→270,367,216)"
+  }
+]
