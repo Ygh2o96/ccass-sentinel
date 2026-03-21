@@ -1,6 +1,6 @@
 """CCASS Sentinel — Telegram Push Module
 
-Uses Alert Push Protocol format.
+Alert Push Protocol format.
 Python urllib only — never curl (destroys & and $ characters).
 
 Credentials loaded from environment variables (set in GitHub Secrets):

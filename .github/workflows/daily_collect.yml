@@ -67,5 +67,5 @@ jobs:
           if [ -f "$ALERT_FILE" ]; then
             COUNT=$(python -c "import json; print(len(json.load(open('${ALERT_FILE}'))))")
             echo "🚨 ${COUNT} alerts detected — check alerts/${DATE}.json"
-            # TODO: Post to GitHub Issue / send Telegram / WeChat webhook
+            # TODO: Post to GitHub Issue or send notification
           fi
