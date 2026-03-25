@@ -1,0 +1,17 @@
+[
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "02788: Float expanded +46.2% in 1 day (649,987,900→949,987,900)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06090: BrkT5 jumped +5.4pp in 1 day (56.2%→61.6%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "06090: Float expanded +18.2% in 1 day (34,437,098→40,691,838)"
+  }
+]
