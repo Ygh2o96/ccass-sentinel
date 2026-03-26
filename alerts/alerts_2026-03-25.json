@@ -1,0 +1,12 @@
+[
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01384: BrkT5 jumped +5.8pp in 1 day (47.2%→53.0%)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "06090: BrkT5 jumped +18.1pp in 1 day (61.6%→79.7%)"
+  }
+]
