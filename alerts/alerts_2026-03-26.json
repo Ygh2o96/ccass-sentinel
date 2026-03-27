@@ -1,0 +1,12 @@
+[
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "02609: Float expanded +5.4% in 1 day (306,511,087→323,177,754)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "02635: Float expanded +909.5% in 1 day (29,333,028→296,120,280)"
+  }
+]
