@@ -1,0 +1,22 @@
+[
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02259: BrkT5 jumped +15.4pp in 1 day (19.6%→35.0%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "02259: Float expanded +22.0% in 1 day (453,586,453→553,539,253)"
+  },
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "02677: BrkT5 jumped +21.9pp in 1 day (56.5%→78.5%)"
+  },
+  {
+    "type": "FLOAT_EXPANSION",
+    "severity": "MEDIUM",
+    "message": "02677: Float expanded +101.1% in 1 day (4,946,099→9,946,099)"
+  }
+]
