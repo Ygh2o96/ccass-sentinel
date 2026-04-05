@@ -31,15 +31,30 @@ jobs:
       - name: Install dependencies
         run: pip install requests numpy
       
-      - name: Run daily collection
-        run: python scripts/daily_runner.py
+      - name: Run daily collection (with retry)
         env:
           PYTHONUNBUFFERED: '1'
           PYTHONPATH: 'scripts'
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          for attempt in 1 2 3; do
+            echo "=== Attempt $attempt ==="
+            if python scripts/daily_runner.py; then
+              echo "✅ daily_runner succeeded on attempt $attempt"
+              break
+            fi
+            if [ $attempt -lt 3 ]; then
+              echo "⚠️ Attempt $attempt failed, retrying in 60s..."
+              sleep 60
+            else
+              echo "❌ All 3 attempts failed"
+              exit 1
+            fi
+          done
       
       - name: Run thermodynamic layer
+        continue-on-error: true
         run: python scripts/thermo_layer.py
         env:
           PYTHONUNBUFFERED: '1'
@@ -65,14 +80,19 @@ jobs:
           git commit -m "📡 Daily CCASS: ${DATE} | ${STOCKS} stocks, ${SNAPS} total snapshots"
           git push
       
-      - name: Post alerts to issue (if any)
-        if: always()
+      - name: Alert on failure
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          DATE=$(date -u +%Y-%m-%d)
-          ALERT_FILE="alerts/alerts_${DATE}.json"
-          
-          if [ -f "$ALERT_FILE" ]; then
-            COUNT=$(python -c "import json; print(len(json.load(open('${ALERT_FILE}'))))")
-            echo "🚨 ${COUNT} alerts detected — check alerts/${DATE}.json"
-            # TODO: Post to GitHub Issue or send notification
-          fi
+          python3 -c "
+import os,json,urllib.request
+token=os.environ.get('TELEGRAM_BOT_TOKEN','')
+chat=os.environ.get('TELEGRAM_CHAT_ID','')
+if token and chat:
+    d=json.dumps({'chat_id':int(chat),'text':'🔴 CCASS Daily Collection FAILED — check Actions'}).encode()
+    urllib.request.urlopen(urllib.request.Request(
+        f'https://api.telegram.org/bot{token}/sendMessage',d,
+        headers={'Content-Type':'application/json'}),timeout=10)
+"
