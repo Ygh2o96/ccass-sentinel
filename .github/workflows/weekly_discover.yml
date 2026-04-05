@@ -9,7 +9,7 @@ on:
 jobs:
   discover:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 10
     
     permissions:
       contents: write
@@ -24,7 +24,7 @@ jobs:
           python-version: '3.12'
       
       - name: Install dependencies
-        run: pip install requests
+        run: pip install openpyxl
       
       - name: Discover new listings
         run: python scripts/discover_new_listings.py
@@ -33,24 +33,21 @@ jobs:
           PYTHONPATH: 'scripts'
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          DISCOVERY_MAX_CANDIDATES: '300'
-          DISCOVERY_WALL_CLOCK_SECS: '4200'
       
       - name: Commit and push
         run: |
           git config --local user.name "CCASS Sentinel Bot"
           git config --local user.email "sentinel@ccass.dev"
           
-          git add data/watchlist.json
+          git add data/watchlist.json data/hkex_securities_snapshot.json
           if git diff --staged --quiet; then
-            echo "No new listings discovered"
+            echo "No changes"
             exit 0
           fi
           
-          NEW=$(git diff --staged data/watchlist.json | grep "^+" | grep "AUTO-DISCOVERED" | wc -l)
           TOTAL=$(python -c "import json; print(len(json.load(open('data/watchlist.json'))))")
           
-          git commit -m "🆕 Auto-discovered ${NEW} new listing(s) | Watchlist: ${TOTAL} stocks"
+          git commit -m "🔍 Weekly discovery | Watchlist: ${TOTAL} stocks"
           git push
 
       - name: Alert on failure
