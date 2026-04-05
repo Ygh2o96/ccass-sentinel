@@ -1,235 +1,223 @@
 #!/usr/bin/env python3
-"""CCASS Sentinel — New Listing Auto-Discovery
+"""CCASS Sentinel — New Listing Auto-Discovery v2.0
 
-Scans CCASS for stock codes NOT in the current watchlist.
-If CCASS returns data, it's a new listing → auto-add to watchlist.
+REWRITE: Scrapes HKEX ListOfSecurities.xlsx instead of brute-forcing CCASS.
+One HTTP call (~1.3 MB Excel) → parse 2,700+ equities → diff against watchlist.
+Runtime: <10 seconds vs 60+ minutes.
 
-Runs weekly (Saturday) via GitHub Actions.
-Also callable manually: python scripts/discover_new_listings.py
-
-Strategy:
-  HKEX assigns stock codes in ranges. Recent IPOs cluster around:
-  - 00xxx (legacy, rare for new IPOs)
-  - 01xxx (Main Board, mixed)  
-  - 02xxx (Main Board, high frequency 2024-2026)
-  - 03xxx (Main Board)
-  - 06xxx (Main Board)
-  - 09xxx (Main Board, Chapter 18A/19C/21)
-  
-  We scan ~200 candidate codes around the latest watchlist codes.
-  If CCASS returns holders for a code we don't track, it's new.
-  False positive rate is near zero (CCASS only returns data for listed stocks).
+Source: https://www.hkex.com.hk/eng/services/trading/securities/securitieslists/ListOfSecurities.xlsx
+Updated daily by HKEX. Contains all listed securities with category, sub-category, ISIN, CCASS eligibility.
 """
 
-import json, os, re, time, random, sys
+import json, os, sys, io, urllib.request
 from pathlib import Path
-from datetime import datetime, timedelta
+from datetime import datetime
 
 try:
-    import requests
+    import openpyxl
 except ImportError:
-    print("pip install requests")
-    sys.exit(1)
+    os.system("pip install openpyxl --break-system-packages -q")
+    import openpyxl
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 WATCHLIST_FILE = REPO_ROOT / "data" / "watchlist.json"
-HKEX_URL = "https://www3.hkexnews.hk/sdw/search/searchsdw.aspx"
+SNAPSHOT_FILE = REPO_ROOT / "data" / "hkex_securities_snapshot.json"
+HKEX_URL = "https://www.hkex.com.hk/eng/services/trading/securities/securitieslists/ListOfSecurities.xlsx"
 
-# Configurable via env vars (set in GitHub Actions workflow)
-MAX_CANDIDATES = int(os.environ.get("DISCOVERY_MAX_CANDIDATES", "300"))
-WALL_CLOCK_SECS = int(os.environ.get("DISCOVERY_WALL_CLOCK_SECS", "4200"))  # 70 min default
-VIEWSTATE_REFRESH_EVERY = 80  # refresh session every N checks
+TG_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+TG_CHAT = os.environ.get("TELEGRAM_CHAT_ID", "")
 
-
-def get_viewstate():
-    s = requests.Session()
-    s.headers["User-Agent"] = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-    r = s.get(HKEX_URL, timeout=(5, 15))
-    vs = re.search(r'id="__VIEWSTATE"\s+value="([^"]*)"', r.text)
-    vsg = re.search(r'id="__VIEWSTATEGENERATOR"\s+value="([^"]*)"', r.text)
-    ev = re.search(r'id="__EVENTVALIDATION"\s+value="([^"]*)"', r.text)
-    if not all([vs, vsg]):
-        return None, s
-    return {"vs": vs.group(1), "vsg": vsg.group(1), "ev": ev.group(1) if ev else ""}, s
+# Which categories are equity-like (worth monitoring in CCASS)
+EQUITY_CATEGORIES = {"Equity", "Real Estate Investment Trusts", "Stapled Securities"}
+# Sub-categories to include
+EQUITY_SUBCATEGORIES_INCLUDE = {
+    "Equity Securities (Main Board)",
+    "Equity Securities (GEM)",
+    "Real Estate Investment Trusts (Main Board)",
+}
 
 
-def check_code(session, code, date_str, viewstate):
-    """Returns True if CCASS has data for this code."""
-    time.sleep(random.uniform(1.0, 2.5))
-    data = {
-        "__EVENTTARGET": "btnSearch",
-        "__EVENTARGUMENT": "",
-        "__VIEWSTATE": viewstate["vs"],
-        "__VIEWSTATEGENERATOR": viewstate["vsg"],
-        "today": date_str.replace("/", ""),
-        "sortBy": "shareholding",
-        "sortDirection": "desc",
-        "originalShareholdingDate": "",
-        "alertMsg": "",
-        "txtShareholdingDate": date_str,
-        "txtStockCode": code,
-        "txtStockName": "",
-        "txtParticipantID": "",
-        "txtParticipantName": "",
-        "txtSelPartID": "",
-    }
-    if viewstate.get("ev"):
-        data["__EVENTVALIDATION"] = viewstate["ev"]
+def tg(text):
+    if not TG_TOKEN or not TG_CHAT:
+        return print(f"[TG skip] {text[:80]}")
     try:
-        r = session.post(HKEX_URL, data=data, timeout=(3.05, 15))
-        if r.status_code != 200:
-            return False
-        if len(r.text) < 15000:
-            return False
-        if "col-participant-id" in r.text:
-            return True
-        return False
-    except:
-        return False
+        d = json.dumps({"chat_id": int(TG_CHAT), "text": text}).encode()
+        urllib.request.urlopen(urllib.request.Request(
+            f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage", d,
+            headers={"Content-Type": "application/json"}), timeout=10)
+    except Exception as e:
+        print(f"[TG err] {e}")
 
 
-def generate_candidates(existing_codes):
-    """Generate stock codes to probe based on existing watchlist."""
-    existing_nums = sorted(int(c) for c in existing_codes)
-    candidates = set()
-    
-    # Strategy 1: Scan ±20 around the highest codes in each range
-    for prefix in [1, 2, 3, 6, 9]:
-        range_codes = [n for n in existing_nums if n // 1000 == prefix]
-        if range_codes:
-            max_code = max(range_codes)
-            # Scan codes above the max (most likely new listings)
-            for offset in range(1, 30):
-                candidates.add(max_code + offset)
-            # Also scan a few below (might have missed some)
-            for offset in range(1, 10):
-                candidates.add(max_code - offset)
-    
-    # Strategy 2: Common recent IPO ranges
-    # 02700-02750, 03300-03400, 09600-09700
-    for start, end in [(2700, 2750), (3300, 3400), (3600, 3700), (9600, 9700), (9900, 9990)]:
-        for n in range(start, end + 1):
-            candidates.add(n)
-    
-    # Remove existing
-    candidates -= set(existing_nums)
-    
-    # Format as 5-digit strings, cap at MAX_CANDIDATES
-    all_cands = sorted(f"{n:05d}" for n in candidates if 1 <= n <= 99999)
-    if len(all_cands) > MAX_CANDIDATES:
-        # Prioritize: codes just above max in each range (most likely new IPOs)
-        # then fill with Strategy 2 ranges
-        priority = []
-        remainder = []
-        for c in all_cands:
-            n = int(c)
-            prefix = n // 1000
-            range_max = max((x for x in existing_nums if x // 1000 == prefix), default=0)
-            if range_max and n > range_max and n <= range_max + 30:
-                priority.append(c)
-            else:
-                remainder.append(c)
-        all_cands = (priority + remainder)[:MAX_CANDIDATES]
-    
-    return all_cands
+def download_securities_list():
+    """Download and parse HKEX ListOfSecurities.xlsx → dict of equity codes."""
+    print("  Downloading ListOfSecurities.xlsx...")
+    req = urllib.request.Request(HKEX_URL, headers={
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    })
+    data = urllib.request.urlopen(req, timeout=60).read()
+    print(f"  Downloaded: {len(data)/1024:.0f} KB")
+
+    wb = openpyxl.load_workbook(io.BytesIO(data), read_only=False)
+    ws = wb.active
+
+    # Parse header row (row 3) to find column indices
+    headers = {}
+    for c in range(1, ws.max_column + 1):
+        val = ws.cell(row=3, column=c).value
+        if val:
+            headers[str(val).strip()] = c
+
+    col_code = headers.get("Stock Code", 1)
+    col_name = headers.get("Name of Securities", 2)
+    col_cat = headers.get("Category", 3)
+    col_subcat = headers.get("Sub-Category", 4)
+    col_ccass = headers.get("Admitted to CCASS", None)
+
+    # Extract update date from row 2
+    update_info = str(ws.cell(row=2, column=1).value or "")
+    print(f"  HKEX data: {update_info}")
+
+    equities = {}
+    for r in range(4, ws.max_row + 1):
+        code = ws.cell(row=r, column=col_code).value
+        name = ws.cell(row=r, column=col_name).value
+        cat = ws.cell(row=r, column=col_cat).value
+        subcat = ws.cell(row=r, column=col_subcat).value
+        ccass = ws.cell(row=r, column=col_ccass).value if col_ccass else None
+
+        if not code or not cat:
+            continue
+
+        code = str(code).strip().zfill(5)
+        cat = str(cat).strip()
+
+        # Filter: equity-like securities only
+        if cat not in EQUITY_CATEGORIES:
+            continue
+
+        # Optional: further filter by sub-category
+        subcat_str = str(subcat).strip() if subcat else ""
+
+        equities[code] = {
+            "name": str(name).strip() if name else "",
+            "category": cat,
+            "sub_category": subcat_str,
+            "ccass": str(ccass).strip() if ccass else "",
+        }
+
+    wb.close()
+    print(f"  Parsed {len(equities)} equity securities")
+    return equities, update_info
 
 
 def main():
-    start_time = time.time()
-    print("🔍 CCASS Sentinel — New Listing Discovery")
-    print(f"  Config: max_candidates={MAX_CANDIDATES}, wall_clock={WALL_CLOCK_SECS}s")
-    
-    # Load watchlist
-    wl = json.loads(WATCHLIST_FILE.read_text())
-    existing = {w["code"] for w in wl}
-    print(f"  Current watchlist: {len(existing)} stocks")
-    
-    # Generate candidates
-    candidates = generate_candidates(existing)
-    print(f"  Candidate codes to probe: {len(candidates)}")
-    
-    # Yesterday's date
-    yesterday = datetime.now() - timedelta(days=1)
-    # If Saturday/Sunday, use Friday
-    while yesterday.weekday() >= 5:
-        yesterday -= timedelta(days=1)
-    date_str = yesterday.strftime("%Y/%m/%d")
-    print(f"  Probing date: {date_str}")
-    
-    # Get ViewState
-    viewstate, session = get_viewstate()
-    if not viewstate:
-        print("  ❌ Failed to get ViewState")
+    today = datetime.now().strftime("%Y-%m-%d")
+    print(f"🔍 CCASS Sentinel — New Listing Discovery v2.0 ({today})")
+    print(f"  Method: HKEX ListOfSecurities.xlsx (single HTTP call)")
+
+    # Download current securities list
+    try:
+        hkex_equities, update_info = download_securities_list()
+    except Exception as e:
+        msg = f"❌ Failed to download HKEX securities list: {e}"
+        print(msg)
+        tg(msg)
         sys.exit(1)
-    
-    # Probe candidates
-    discovered = []
-    checked = 0
-    for code in candidates:
-        # Wall clock guard
-        elapsed = time.time() - start_time
-        if elapsed > WALL_CLOCK_SECS:
-            print(f"  ⏰ Wall clock limit reached ({elapsed:.0f}s). Checked {checked}/{len(candidates)}.")
-            break
-        
-        # Refresh viewstate periodically to avoid session expiry
-        if checked > 0 and checked % VIEWSTATE_REFRESH_EVERY == 0:
-            print(f"  🔄 Refreshing session (checked {checked})...")
-            try:
-                viewstate, session = get_viewstate()
-                if not viewstate:
-                    print("  ⚠️ ViewState refresh failed, continuing with old session")
-            except Exception as e:
-                print(f"  ⚠️ ViewState refresh error: {e}")
-        
-        if check_code(session, code, date_str, viewstate):
-            discovered.append(code)
-            print(f"  🆕 DISCOVERED: {code}")
-        checked += 1
-        if checked % 50 == 0:
-            elapsed = time.time() - start_time
-            print(f"  Checked {checked}/{len(candidates)} ({elapsed:.0f}s elapsed)...")
-    
-    print(f"\n  Checked: {checked} | Discovered: {len(discovered)}")
-    
-    if not discovered:
-        print("  No new listings found.")
+
+    # Load current watchlist
+    wl = json.loads(WATCHLIST_FILE.read_text())
+    existing_codes = {w["code"] for w in wl}
+    print(f"  Current watchlist: {len(existing_codes)} stocks")
+
+    # Load previous snapshot (if exists) for change detection
+    prev_snapshot = {}
+    if SNAPSHOT_FILE.exists():
+        prev_snapshot = json.loads(SNAPSHOT_FILE.read_text())
+        print(f"  Previous snapshot: {len(prev_snapshot)} equities")
+
+    # Find new listings: in HKEX but NOT in watchlist
+    new_codes = sorted(set(hkex_equities.keys()) - existing_codes)
+
+    # If we have a previous snapshot, also identify truly new listings
+    # (appeared in HKEX since last run)
+    if prev_snapshot:
+        truly_new = sorted(set(hkex_equities.keys()) - set(prev_snapshot.keys()))
+        if truly_new:
+            print(f"\n  🆕 Truly new listings since last scan: {len(truly_new)}")
+            for code in truly_new:
+                info = hkex_equities[code]
+                print(f"    {code} | {info['name']:30s} | {info['sub_category']}")
+
+    # Also detect delistings
+    if prev_snapshot:
+        delisted = sorted(set(prev_snapshot.keys()) - set(hkex_equities.keys()))
+        if delisted:
+            print(f"\n  ⚠️ Delisted since last scan: {len(delisted)}")
+            for code in delisted[:10]:
+                print(f"    {code} | {prev_snapshot[code].get('name', '?')}")
+
+    # Save current snapshot
+    SNAPSHOT_FILE.write_text(json.dumps(hkex_equities, indent=2, ensure_ascii=False))
+    print(f"  💾 Snapshot saved: {len(hkex_equities)} equities")
+
+    # Add new codes to watchlist
+    if not new_codes:
+        print(f"\n  ✅ No new listings to add (watchlist covers all {len(existing_codes)} equities)")
+        # Still push Telegram summary
+        if prev_snapshot and truly_new:
+            tg(f"🔍 Discovery — {today}\n"
+               f"HKEX: {len(hkex_equities)} equities\n"
+               f"New since last scan: {len(truly_new)}\n"
+               f"Already in watchlist: all covered")
         return
-    
-    # Add to watchlist
-    for code in discovered:
+
+    added = []
+    for code in new_codes:
+        info = hkex_equities[code]
+        # Determine tier: new IPOs (not in prev snapshot) get HIGH, old misses get MEDIUM
+        is_fresh = code not in prev_snapshot if prev_snapshot else True
+        tier = "HIGH" if is_fresh else "MEDIUM"
+
         wl.append({
             "code": code,
-            "name": f"[AUTO-DISCOVERED {date_str}]",
-            "tier": "HIGH",  # New listings get HIGH priority for close monitoring
+            "name": info["name"],
+            "tier": tier,
+            "source": f"AUTO-DISCOVERED {today} (HKEX ListOfSecurities)",
+            "sub_category": info["sub_category"],
         })
-        print(f"  ➕ Added {code} to watchlist [HIGH]")
-    
+        added.append((code, info["name"], tier))
+        print(f"  ➕ {code} | {info['name']:30s} | {tier}")
+
     wl.sort(key=lambda x: x["code"])
     WATCHLIST_FILE.write_text(json.dumps(wl, indent=2, ensure_ascii=False))
-    print(f"  💾 Watchlist updated: {len(wl)} stocks")
-    
-    # Telegram push
-    try:
-        from telegram_push import push_discovery
-        push_discovery(date_str, discovered)
-        print(f"  📱 Telegram push sent")
-    except Exception as e:
-        print(f"  ⚠️ Telegram push failed: {e}")
+    print(f"\n  💾 Watchlist updated: {len(wl)} stocks (+{len(added)} new)")
+
+    # Telegram
+    msg_lines = [
+        f"🔍 Discovery — {today}",
+        f"HKEX equities: {len(hkex_equities)}",
+        f"Added to watchlist: {len(added)}",
+    ]
+    for code, name, tier in added[:15]:
+        msg_lines.append(f"  {code} {name} [{tier}]")
+    if len(added) > 15:
+        msg_lines.append(f"  ... +{len(added)-15} more")
+    tg("\n".join(msg_lines))
 
 
 if __name__ == "__main__":
     try:
         main()
     except Exception as e:
-        import traceback, sys
+        import traceback
         tb = traceback.format_exc()
         print(f"\n  💥 FATAL ERROR:\n{tb}")
         try:
             sys.path.insert(0, str(Path(__file__).resolve().parent))
             from telegram_push import push_error
-            from datetime import datetime as dt
-            push_error(dt.now().strftime("%Y-%m-%d"), f"discover_new_listings.py crashed:\n{str(e)[:200]}")
+            push_error(datetime.now().strftime("%Y-%m-%d"),
+                       f"discover_new_listings.py crashed:\n{str(e)[:200]}")
         except:
             pass
         sys.exit(1)
