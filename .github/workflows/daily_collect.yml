@@ -39,6 +39,13 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       
+      - name: Run thermodynamic layer
+        run: python scripts/thermo_layer.py
+        env:
+          PYTHONUNBUFFERED: '1'
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      
       - name: Commit and push
         run: |
           git config --local user.name "CCASS Sentinel Bot"
