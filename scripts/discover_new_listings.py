@@ -35,6 +35,12 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 WATCHLIST_FILE = REPO_ROOT / "data" / "watchlist.json"
 HKEX_URL = "https://www3.hkexnews.hk/sdw/search/searchsdw.aspx"
 
+# Configurable via env vars (set in GitHub Actions workflow)
+MAX_CANDIDATES = int(os.environ.get("DISCOVERY_MAX_CANDIDATES", "300"))
+WALL_CLOCK_SECS = int(os.environ.get("DISCOVERY_WALL_CLOCK_SECS", "4200"))  # 70 min default
+VIEWSTATE_REFRESH_EVERY = 80  # refresh session every N checks
+
+
 def get_viewstate():
     s = requests.Session()
     s.headers["User-Agent"] = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -108,12 +114,30 @@ def generate_candidates(existing_codes):
     # Remove existing
     candidates -= set(existing_nums)
     
-    # Format as 5-digit strings
-    return sorted(f"{n:05d}" for n in candidates if 1 <= n <= 99999)
+    # Format as 5-digit strings, cap at MAX_CANDIDATES
+    all_cands = sorted(f"{n:05d}" for n in candidates if 1 <= n <= 99999)
+    if len(all_cands) > MAX_CANDIDATES:
+        # Prioritize: codes just above max in each range (most likely new IPOs)
+        # then fill with Strategy 2 ranges
+        priority = []
+        remainder = []
+        for c in all_cands:
+            n = int(c)
+            prefix = n // 1000
+            range_max = max((x for x in existing_nums if x // 1000 == prefix), default=0)
+            if range_max and n > range_max and n <= range_max + 30:
+                priority.append(c)
+            else:
+                remainder.append(c)
+        all_cands = (priority + remainder)[:MAX_CANDIDATES]
+    
+    return all_cands
 
 
 def main():
+    start_time = time.time()
     print("🔍 CCASS Sentinel — New Listing Discovery")
+    print(f"  Config: max_candidates={MAX_CANDIDATES}, wall_clock={WALL_CLOCK_SECS}s")
     
     # Load watchlist
     wl = json.loads(WATCHLIST_FILE.read_text())
@@ -142,12 +166,29 @@ def main():
     discovered = []
     checked = 0
     for code in candidates:
+        # Wall clock guard
+        elapsed = time.time() - start_time
+        if elapsed > WALL_CLOCK_SECS:
+            print(f"  ⏰ Wall clock limit reached ({elapsed:.0f}s). Checked {checked}/{len(candidates)}.")
+            break
+        
+        # Refresh viewstate periodically to avoid session expiry
+        if checked > 0 and checked % VIEWSTATE_REFRESH_EVERY == 0:
+            print(f"  🔄 Refreshing session (checked {checked})...")
+            try:
+                viewstate, session = get_viewstate()
+                if not viewstate:
+                    print("  ⚠️ ViewState refresh failed, continuing with old session")
+            except Exception as e:
+                print(f"  ⚠️ ViewState refresh error: {e}")
+        
         if check_code(session, code, date_str, viewstate):
             discovered.append(code)
             print(f"  🆕 DISCOVERED: {code}")
         checked += 1
         if checked % 50 == 0:
-            print(f"  Checked {checked}/{len(candidates)}...")
+            elapsed = time.time() - start_time
+            print(f"  Checked {checked}/{len(candidates)} ({elapsed:.0f}s elapsed)...")
     
     print(f"\n  Checked: {checked} | Discovered: {len(discovered)}")
     
