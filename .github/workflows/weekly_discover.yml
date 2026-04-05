@@ -9,7 +9,7 @@ on:
 jobs:
   discover:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 90
     
     permissions:
       contents: write
@@ -33,6 +33,8 @@ jobs:
           PYTHONPATH: 'scripts'
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          DISCOVERY_MAX_CANDIDATES: '300'
+          DISCOVERY_WALL_CLOCK_SECS: '4200'
       
       - name: Commit and push
         run: |
@@ -50,3 +52,20 @@ jobs:
           
           git commit -m "🆕 Auto-discovered ${NEW} new listing(s) | Watchlist: ${TOTAL} stocks"
           git push
+
+      - name: Alert on failure
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python3 -c "
+import os,json,urllib.request
+token=os.environ.get('TELEGRAM_BOT_TOKEN','')
+chat=os.environ.get('TELEGRAM_CHAT_ID','')
+if token and chat:
+    d=json.dumps({'chat_id':int(chat),'text':'🔴 Weekly Discovery FAILED — check Actions'}).encode()
+    urllib.request.urlopen(urllib.request.Request(
+        f'https://api.telegram.org/bot{token}/sendMessage',d,
+        headers={'Content-Type':'application/json'}),timeout=10)
+"
