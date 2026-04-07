@@ -249,6 +249,7 @@ def main():
     
     watchlist = json.loads(WATCHLIST_FILE.read_text())
     codes = [w["code"] for w in watchlist]
+    code_names = {w["code"]: w.get("name", "") for w in watchlist}
     print(f"  Watchlist: {len(codes)} stocks")
     
     # Load existing time-series
@@ -392,7 +393,8 @@ def main():
             delta = bt5 - prev_bt5
             if abs(delta) >= 3.0:
                 direction = "⬆" if delta > 0 else "⬇"
-                highlights.append(f"{direction} {code} BT5={bt5:.1f}% ({delta:+.1f}pp)")
+                name = code_names.get(code, "")[:8]
+                highlights.append(f"{direction} {code} {name} BT5={bt5:.1f}% ({delta:+.1f}pp)")
                 print(f"    {direction} {code}: BT5 {prev_bt5:.1f}%→{bt5:.1f}% ({delta:+.1f}pp)")
     if not highlights:
         print("    (no material BT5 moves today)")
