@@ -46,16 +46,18 @@ def send(text, silent=False):
 
 
 def push_daily_summary(date, collected, errors, total_stocks, total_snaps, highlights):
-    """Push daily collection summary."""
+    """Push daily collection summary. Compact — only shows material moves."""
     lines = [
-        f"🛰️ CCASS Daily — {date}",
-        f"Collected: {collected} | Errors: {errors}",
-        f"Universe: {total_stocks} stocks | {total_snaps} total snapshots",
+        f"🛰️ CCASS — {date} | {collected} stocks | {total_snaps} snaps",
     ]
+    if errors:
+        lines.append(f"⚠️ {errors} errors")
     if highlights:
         lines.append("")
-        for h in highlights[:5]:
+        for h in highlights[:8]:
             lines.append(h)
+    else:
+        lines.append("✅ No material BT5 moves")
     return send("\n".join(lines))
 
 

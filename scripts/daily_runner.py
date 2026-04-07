@@ -377,13 +377,25 @@ def main():
     # Summary stats
     print(f"\n  📈 DAILY SUMMARY:")
     highlights = []
-    for code in codes[:10]:  # Top 10 watchlist
-        if code in ts and date_key in ts[code]:
-            d = ts[code][date_key]
-            line = (f"    {code}: BT5={d.get('broker_top5_pct',0):.1f}% AT5={d.get('adj_top5_pct',0):.1f}% "
-                    f"Parts={d.get('participant_count',0)} TopBrk={d.get('top_broker_name','')[:15]}")
-            print(line)
-            highlights.append(f"{code} BT5={d.get('broker_top5_pct',0):.1f}% {d.get('top_broker_name','')[:12]}")
+    # Only highlight stocks with material BT5 change (>3pp) vs prior day
+    for code in codes:
+        if code not in ts or date_key not in ts[code]:
+            continue
+        d = ts[code][date_key]
+        bt5 = d.get('broker_top5_pct', 0)
+        # Find prior day
+        sorted_dates = sorted(ts[code].keys())
+        idx = sorted_dates.index(date_key) if date_key in sorted_dates else -1
+        if idx > 0:
+            prev_d = ts[code][sorted_dates[idx - 1]]
+            prev_bt5 = prev_d.get('broker_top5_pct', 0)
+            delta = bt5 - prev_bt5
+            if abs(delta) >= 3.0:
+                direction = "⬆" if delta > 0 else "⬇"
+                highlights.append(f"{direction} {code} BT5={bt5:.1f}% ({delta:+.1f}pp)")
+                print(f"    {direction} {code}: BT5 {prev_bt5:.1f}%→{bt5:.1f}% ({delta:+.1f}pp)")
+    if not highlights:
+        print("    (no material BT5 moves today)")
     
     # ── Telegram Push ──
     if not args.dry_run:
