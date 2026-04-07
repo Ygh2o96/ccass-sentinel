@@ -86,13 +86,4 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          python3 -c "
-import os,json,urllib.request
-token=os.environ.get('TELEGRAM_BOT_TOKEN','')
-chat=os.environ.get('TELEGRAM_CHAT_ID','')
-if token and chat:
-    d=json.dumps({'chat_id':int(chat),'text':'🔴 CCASS Daily Collection FAILED — check Actions'}).encode()
-    urllib.request.urlopen(urllib.request.Request(
-        f'https://api.telegram.org/bot{token}/sendMessage',d,
-        headers={'Content-Type':'application/json'}),timeout=10)
-"
+          python3 -c "import os,json,urllib.request; token=os.environ.get('TELEGRAM_BOT_TOKEN',''); chat=os.environ.get('TELEGRAM_CHAT_ID',''); d=json.dumps({'chat_id':int(chat),'text':'🔴 CCASS Daily FAILED'}).encode(); urllib.request.urlopen(urllib.request.Request(f'https://api.telegram.org/bot{token}/sendMessage',d,headers={'Content-Type':'application/json'}),timeout=10)" if [ -n "$TELEGRAM_BOT_TOKEN" ]; then echo "Alert sent"; fi
