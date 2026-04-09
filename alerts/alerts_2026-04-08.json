@@ -1,0 +1,12 @@
+[
+  {
+    "type": "BROKER_SPIKE",
+    "severity": "HIGH",
+    "message": "01276: BrkT5 jumped +3.7pp in 1 day (4.6%→8.3%)"
+  },
+  {
+    "type": "PARTICIPANT_DROP",
+    "severity": "MEDIUM",
+    "message": "02565: Participant count dropped -11 (103→92)"
+  }
+]
