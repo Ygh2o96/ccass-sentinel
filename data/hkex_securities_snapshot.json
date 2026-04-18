@@ -335,6 +335,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "00068": {
+    "name": "MANYCORE TECH",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "00069": {
     "name": "SHANGRI-LA ASIA",
     "category": "Equity",
@@ -1692,7 +1698,7 @@
     "ccass": "Y"
   },
   "00339": {
-    "name": "CN SCI-TECH IND",
+    "name": "WEBX HOLDING",
     "category": "Equity",
     "sub_category": "Investment Companies",
     "ccass": "Y"
@@ -7812,7 +7818,7 @@
     "ccass": "Y"
   },
   "01757": {
-    "name": "GLOBAL CHI-1K",
+    "name": "GLOBAL CHI BC",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11376,7 +11382,7 @@
     "ccass": "Y"
   },
   "02635": {
-    "name": "NUOBIKAN-NEW",
+    "name": "NUOBIKAN",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11867,20 +11873,8 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02931": {
-    "name": "NUOBIKAN-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "02934": {
     "name": "SANDMARTIN-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02935": {
-    "name": "GLOBAL CHI-10K",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11905,6 +11899,12 @@
   },
   "03268": {
     "name": "MEIG",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "03277": {
+    "name": "GPIXEL",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12911,6 +12911,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "06051": {
+    "name": "YOUZAN",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "06055": {
     "name": "CTIHK",
     "category": "Equity",
@@ -13321,6 +13327,12 @@
   },
   "06655": {
     "name": "HX BLDG MAT",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "06656": {
+    "name": "SIGENERGY",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -13866,7 +13878,7 @@
     "ccass": "Y"
   },
   "06990": {
-    "name": "SKB BIO-B",
+    "name": "SKB BIO",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -14052,7 +14064,7 @@
     "ccass": "Y"
   },
   "08042": {
-    "name": "KOS INTL",
+    "name": "KOS TALENT GP",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -14207,12 +14219,6 @@
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
   },
-  "08083": {
-    "name": "YOUZAN",
-    "category": "Equity",
-    "sub_category": "Equity Securities (GEM)",
-    "ccass": "Y"
-  },
   "08087": {
     "name": "CHINA 33MEDIA",
     "category": "Equity",
@@ -14298,7 +14304,7 @@
     "ccass": "Y"
   },
   "08115": {
-    "name": "SHANGHAI QINGPU",
+    "name": "QINGDA ORIENTAL",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15378,7 +15384,7 @@
     "ccass": "Y"
   },
   "08460": {
-    "name": "BASETROPHY GP",
+    "name": "BASETROPHY-5K",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15619,6 +15625,18 @@
   },
   "08549": {
     "name": "GOLDEN LEAF INT",
+    "category": "Equity",
+    "sub_category": "Equity Securities (GEM)",
+    "ccass": "Y"
+  },
+  "08551": {
+    "name": "BASETROPHY-20K",
+    "category": "Equity",
+    "sub_category": "Equity Securities (GEM)",
+    "ccass": "Y"
+  },
+  "08600": {
+    "name": "WLS HOLDINGS",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"

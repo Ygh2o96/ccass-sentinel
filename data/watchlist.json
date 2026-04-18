@@ -392,6 +392,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "00068",
+    "name": "MANYCORE TECH",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-04-18 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "00069",
     "name": "SHANGRI-LA ASIA",
     "tier": "HIGH",
@@ -13707,6 +13714,13 @@
     "tier": "STANDARD"
   },
   {
+    "code": "03277",
+    "name": "GPIXEL",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-04-18 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "03288",
     "name": "Foshan Haitian Flavouring and ",
     "tier": "STANDARD"
@@ -14848,6 +14862,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "06051",
+    "name": "YOUZAN",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-04-18 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "06055",
     "name": "CTIHK",
     "tier": "HIGH",
@@ -15312,6 +15333,13 @@
     "name": "HX BLDG MAT",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-04-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "06656",
+    "name": "SIGENERGY",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-04-18 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -17975,6 +18003,20 @@
     "name": "GOLDEN LEAF INT",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-04-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (GEM)"
+  },
+  {
+    "code": "08551",
+    "name": "BASETROPHY-20K",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-04-18 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (GEM)"
+  },
+  {
+    "code": "08600",
+    "name": "WLS HOLDINGS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-04-18 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (GEM)"
   },
   {
