@@ -12427,6 +12427,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02476",
+    "name": "VGT",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-04-25 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02477",
     "name": "WELLCELL HOLD",
     "tier": "HIGH",
@@ -13704,6 +13711,41 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02940",
+    "name": "WELLCELL HOLD",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-04-25 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02941",
+    "name": "CN NEXT-GEN-2K",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-04-25 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02942",
+    "name": "DRAGON RISE-10K",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-04-25 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02943",
+    "name": "ANCHORSTONE RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-04-25 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02944",
+    "name": "ZHONGKE GROUP",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-04-25 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "03200",
     "name": "大族数控 Hans CNC",
     "tier": "STANDARD"
@@ -13724,6 +13766,13 @@
     "code": "03288",
     "name": "Foshan Haitian Flavouring and ",
     "tier": "STANDARD"
+  },
+  {
+    "code": "03296",
+    "name": "HUAQIN",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-04-25 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
   },
   {
     "code": "03300",
@@ -18010,6 +18059,13 @@
     "name": "BASETROPHY-20K",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-04-18 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (GEM)"
+  },
+  {
+    "code": "08552",
+    "name": "SINOFORTUNE FIN",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-04-25 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (GEM)"
   },
   {

@@ -8124,7 +8124,7 @@
     "ccass": "Y"
   },
   "01825": {
-    "name": "STERLING GP-NEW",
+    "name": "STERLING GP",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -10685,6 +10685,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "02476": {
+    "name": "VGT",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "02477": {
     "name": "WELLCELL HOLD",
     "category": "Equity",
@@ -11064,7 +11070,7 @@
     "ccass": "Y"
   },
   "02565": {
-    "name": "PEGBIO CO-B-50",
+    "name": "PEGBIO CO-B",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11867,26 +11873,38 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02929": {
-    "name": "STERLING GP-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "02934": {
     "name": "SANDMARTIN-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02938": {
-    "name": "PEGBIO CO-B-500",
+  "02940": {
+    "name": "WELLCELL HOLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02939": {
-    "name": "SANDMARTIN RTS",
+  "02941": {
+    "name": "CN NEXT-GEN-2K",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02942": {
+    "name": "DRAGON RISE-10K",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02943": {
+    "name": "ANCHORSTONE RTS",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02944": {
+    "name": "ZHONGKE GROUP",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11911,6 +11929,12 @@
   },
   "03288": {
     "name": "HAITIAN FLAV",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "03296": {
+    "name": "HUAQIN",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12708,7 +12732,7 @@
     "ccass": "Y"
   },
   "03928": {
-    "name": "CHINA NEXT-GEN",
+    "name": "CN NEXT-GEN-500",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -13548,7 +13572,7 @@
     "ccass": "Y"
   },
   "06829": {
-    "name": "DRAGON RISE GP",
+    "name": "DRAGON RISE-1K",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -15631,6 +15655,12 @@
   },
   "08551": {
     "name": "BASETROPHY-20K",
+    "category": "Equity",
+    "sub_category": "Equity Securities (GEM)",
+    "ccass": "Y"
+  },
+  "08552": {
+    "name": "SINOFORTUNE FIN",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
