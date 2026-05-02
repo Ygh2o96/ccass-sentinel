@@ -1620,7 +1620,7 @@
     "ccass": "Y"
   },
   "00326": {
-    "name": "CHINA STAR ENT",
+    "name": "CN STAR ENT-2K",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -6150,7 +6150,7 @@
     "ccass": "Y"
   },
   "01355": {
-    "name": "LEGEND STRAT",
+    "name": "BIOSYSEN",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -8383,6 +8383,12 @@
   },
   "01878": {
     "name": "SOUTHGOBI",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "01879": {
+    "name": "XIZHI TECH-P",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -10757,6 +10763,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "02493": {
+    "name": "MABWELL-B",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "02495": {
     "name": "VOICECOMM",
     "category": "Equity",
@@ -11879,6 +11891,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "02936": {
+    "name": "AI ENERGY E RTS",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "02940": {
     "name": "WELLCELL HOLD",
     "category": "Equity",
@@ -11897,14 +11915,20 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02943": {
-    "name": "ANCHORSTONE RTS",
+  "02944": {
+    "name": "ZHONGKE GROUP",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02944": {
-    "name": "ZHONGKE GROUP",
+  "02945": {
+    "name": "CN STAR ENT-10K",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02946": {
+    "name": "EASYHOLD GROUP",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -13511,6 +13535,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "06810": {
+    "name": "SUNMI TECH-W",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "06811": {
     "name": "TAI HING GROUP",
     "category": "Equity",
@@ -13998,7 +14028,7 @@
     "ccass": "Y"
   },
   "08021": {
-    "name": "WLS HOLDINGS",
+    "name": "WLS HOLDING-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -14028,7 +14058,7 @@
     "ccass": "Y"
   },
   "08029": {
-    "name": "IMPERIUM FIN GP",
+    "name": "CI FIN TECH GP",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15665,8 +15695,20 @@
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
   },
+  "08553": {
+    "name": "CHINA 33MEDIA",
+    "category": "Equity",
+    "sub_category": "Equity Securities (GEM)",
+    "ccass": "Y"
+  },
+  "08555": {
+    "name": "WLSHOLDINGS RTS",
+    "category": "Equity",
+    "sub_category": "Equity Securities (GEM)",
+    "ccass": "Y"
+  },
   "08600": {
-    "name": "WLS HOLDINGS",
+    "name": "WLS HOLDING-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"

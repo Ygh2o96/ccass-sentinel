@@ -9758,6 +9758,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "01879",
+    "name": "XIZHI TECH-P",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-02 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "01880",
     "name": "CTG DUTY-FREE",
     "tier": "HIGH",
@@ -12511,6 +12518,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02493",
+    "name": "MABWELL-B",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-02 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02495",
     "name": "VOICECOMM",
     "tier": "HIGH",
@@ -13697,6 +13711,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02936",
+    "name": "AI ENERGY E RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-02 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02938",
     "name": "PEGBIO CO-B-500",
     "tier": "HIGH",
@@ -13743,6 +13764,20 @@
     "name": "ZHONGKE GROUP",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-04-25 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02945",
+    "name": "CN STAR ENT-10K",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-02 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02946",
+    "name": "EASYHOLD GROUP",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-02 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -15561,6 +15596,13 @@
     "code": "06809",
     "name": "澜起科技 Montage",
     "tier": "STANDARD"
+  },
+  {
+    "code": "06810",
+    "name": "SUNMI TECH-W",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-02 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
   },
   {
     "code": "06811",
@@ -18066,6 +18108,20 @@
     "name": "SINOFORTUNE FIN",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-04-25 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (GEM)"
+  },
+  {
+    "code": "08553",
+    "name": "CHINA 33MEDIA",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-02 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (GEM)"
+  },
+  {
+    "code": "08555",
+    "name": "WLSHOLDINGS RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-02 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (GEM)"
   },
   {
