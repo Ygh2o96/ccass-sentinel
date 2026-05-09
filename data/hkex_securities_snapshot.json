@@ -2298,7 +2298,7 @@
     "ccass": "Y"
   },
   "00482": {
-    "name": "SANDMARTIN-NEW",
+    "name": "SANDMARTIN INTL",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -5435,6 +5435,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "01187": {
+    "name": "COFOE MEDICAL",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "01188": {
     "name": "HYBRID KINETIC",
     "category": "Equity",
@@ -5641,6 +5647,12 @@
   },
   "01235": {
     "name": "TRAVEL EXPERT",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "01236": {
+    "name": "LDROBOT",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -7135,6 +7147,12 @@
   },
   "01608": {
     "name": "VPOWER GROUP",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "01609": {
+    "name": "STAR SPORTS MED",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -9432,7 +9450,7 @@
     "ccass": "Y"
   },
   "02157": {
-    "name": "LEPU BIO-B",
+    "name": "LEPU BIO",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -10698,7 +10716,7 @@
     "ccass": "Y"
   },
   "02477": {
-    "name": "WELLCELL HOLD",
+    "name": "WELLCELL H-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11885,20 +11903,8 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02934": {
-    "name": "SANDMARTIN-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02936": {
-    "name": "AI ENERGY E RTS",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "02940": {
-    "name": "WELLCELL HOLD",
+    "name": "WELLCELL H-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11916,7 +11922,7 @@
     "ccass": "Y"
   },
   "02944": {
-    "name": "ZHONGKE GROUP",
+    "name": "ZHONGKE GP-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11929,6 +11935,12 @@
   },
   "02946": {
     "name": "EASYHOLD GROUP",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02948": {
+    "name": "XIMEI RES-2500",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12048,7 +12060,7 @@
     "ccass": "Y"
   },
   "03321": {
-    "name": "ZHONGKE GROUP",
+    "name": "ZHONGKE GP-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -13668,7 +13680,7 @@
     "ccass": "Y"
   },
   "06866": {
-    "name": "ZUOLI M-FIN",
+    "name": "ZUOLI KECHUANG",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -14388,19 +14400,13 @@
     "ccass": "Y"
   },
   "08123": {
-    "name": "SINOFORTUNE FIN",
+    "name": "SINOFORTUNE-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
   },
   "08125": {
     "name": "CHINA NEW HLDGS",
-    "category": "Equity",
-    "sub_category": "Equity Securities (GEM)",
-    "ccass": "Y"
-  },
-  "08126": {
-    "name": "G. A. HOLDINGS",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15438,7 +15444,7 @@
     "ccass": "Y"
   },
   "08460": {
-    "name": "BASETROPHY-5K",
+    "name": "BASETROPHY GP",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15683,14 +15689,8 @@
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
   },
-  "08551": {
-    "name": "BASETROPHY-20K",
-    "category": "Equity",
-    "sub_category": "Equity Securities (GEM)",
-    "ccass": "Y"
-  },
   "08552": {
-    "name": "SINOFORTUNE FIN",
+    "name": "SINOFORTUNE-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15701,8 +15701,8 @@
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
   },
-  "08555": {
-    "name": "WLSHOLDINGS RTS",
+  "08557": {
+    "name": "FLYDOO TECH",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -16278,7 +16278,7 @@
     "ccass": "Y"
   },
   "09936": {
-    "name": "XIMEI RESOURCES",
+    "name": "XIMEI RES-500",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"

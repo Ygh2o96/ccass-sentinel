@@ -6328,6 +6328,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "01187",
+    "name": "COFOE MEDICAL",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-09 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "01188",
     "name": "HYBRID KINETIC",
     "tier": "HIGH",
@@ -6570,6 +6577,13 @@
     "name": "TRAVEL EXPERT",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-04-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "01236",
+    "name": "LDROBOT",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-09 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -8305,6 +8319,13 @@
     "name": "VPOWER GROUP",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-04-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "01609",
+    "name": "STAR SPORTS MED",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-09 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -13781,6 +13802,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02948",
+    "name": "XIMEI RES-2500",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-09 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "03200",
     "name": "大族数控 Hans CNC",
     "tier": "STANDARD"
@@ -18122,6 +18150,13 @@
     "name": "WLSHOLDINGS RTS",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-05-02 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (GEM)"
+  },
+  {
+    "code": "08557",
+    "name": "FLYDOO TECH",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-09 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (GEM)"
   },
   {
