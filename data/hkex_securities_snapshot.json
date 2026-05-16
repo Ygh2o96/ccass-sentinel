@@ -1056,7 +1056,7 @@
     "ccass": "Y"
   },
   "00209": {
-    "name": "WINSHINE SCI",
+    "name": "POLY XVERSE IT",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -1590,7 +1590,7 @@
     "ccass": "Y"
   },
   "00320": {
-    "name": "COMPUTIME",
+    "name": "CTGL",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -7566,7 +7566,7 @@
     "ccass": "Y"
   },
   "01703": {
-    "name": "EASYHOLD GROUP",
+    "name": "EASYHOLD GP-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11909,18 +11909,6 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02941": {
-    "name": "CN NEXT-GEN-2K",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02942": {
-    "name": "DRAGON RISE-10K",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "02944": {
     "name": "ZHONGKE GP-OLD",
     "category": "Equity",
@@ -11934,13 +11922,31 @@
     "ccass": "Y"
   },
   "02946": {
-    "name": "EASYHOLD GROUP",
+    "name": "EASYHOLD GP-OLD",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02947": {
+    "name": "FEG HOLDING RTS",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
   "02948": {
     "name": "XIMEI RES-2500",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02949": {
+    "name": "PASHUN INT RTS",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02950": {
+    "name": "SANERGY GROUP",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12768,7 +12774,7 @@
     "ccass": "Y"
   },
   "03928": {
-    "name": "CN NEXT-GEN-500",
+    "name": "CHINA NEXT-GEN",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -13614,7 +13620,7 @@
     "ccass": "Y"
   },
   "06829": {
-    "name": "DRAGON RISE-1K",
+    "name": "DRAGON RISE GP",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -13693,6 +13699,12 @@
   },
   "06869": {
     "name": "YOFC",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "06871": {
+    "name": "ROBOTPHOENIX",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -13981,6 +13993,18 @@
   },
   "07618": {
     "name": "JD INDUSTRIALS",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "07630": {
+    "name": "IMPACT THERAP-B",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "07666": {
+    "name": "METIS TECHBIO-P",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -14286,7 +14310,7 @@
     "ccass": "Y"
   },
   "08087": {
-    "name": "CHINA 33MEDIA",
+    "name": "CHI 33MEDIA-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15696,13 +15720,19 @@
     "ccass": "Y"
   },
   "08553": {
-    "name": "CHINA 33MEDIA",
+    "name": "CHI 33MEDIA-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
   },
   "08557": {
     "name": "FLYDOO TECH",
+    "category": "Equity",
+    "sub_category": "Equity Securities (GEM)",
+    "ccass": "Y"
+  },
+  "08558": {
+    "name": "MADISON HLDG",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"

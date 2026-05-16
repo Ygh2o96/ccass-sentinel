@@ -13802,10 +13802,31 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02947",
+    "name": "FEG HOLDING RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-16 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02948",
     "name": "XIMEI RES-2500",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-05-09 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02949",
+    "name": "PASHUN INT RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-16 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02950",
+    "name": "SANERGY GROUP",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-16 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -15799,6 +15820,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "06871",
+    "name": "ROBOTPHOENIX",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-16 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "06877",
     "name": "TE HEALTHCARE",
     "tier": "HIGH",
@@ -16121,6 +16149,20 @@
     "code": "07618",
     "name": "JINGDONG Industrials, Inc.",
     "tier": "STANDARD"
+  },
+  {
+    "code": "07630",
+    "name": "IMPACT THERAP-B",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-16 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "07666",
+    "name": "METIS TECHBIO-P",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-16 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
   },
   {
     "code": "08003",
@@ -18157,6 +18199,13 @@
     "name": "FLYDOO TECH",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-05-09 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (GEM)"
+  },
+  {
+    "code": "08558",
+    "name": "MADISON HLDG",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-16 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (GEM)"
   },
   {
