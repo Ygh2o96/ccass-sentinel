@@ -7839,6 +7839,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "01511",
+    "name": "UISEE TECH",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-23 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "01513",
     "name": "LIVZON PHARMA",
     "tier": "HIGH",
@@ -13830,6 +13837,27 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02951",
+    "name": "SOFTMEDX",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-23 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02952",
+    "name": "HP LIVING RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-23 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02955",
+    "name": "GOFINTECH-2000",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-23 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "03200",
     "name": "大族数控 Hans CNC",
     "tier": "STANDARD"
@@ -15827,6 +15855,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "06872",
+    "name": "TENNOR THERAP-B",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-23 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "06877",
     "name": "TE HEALTHCARE",
     "tier": "HIGH",
@@ -16162,6 +16197,13 @@
     "name": "METIS TECHBIO-P",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-05-16 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "07688",
+    "name": "TOPNC",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-23 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -18206,6 +18248,13 @@
     "name": "MADISON HLDG",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-05-16 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (GEM)"
+  },
+  {
+    "code": "08559",
+    "name": "CAPITAL FIN-10K",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-23 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (GEM)"
   },
   {

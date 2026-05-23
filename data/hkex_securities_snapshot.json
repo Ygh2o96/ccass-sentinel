@@ -1434,7 +1434,7 @@
     "ccass": "Y"
   },
   "00290": {
-    "name": "GOFINTECH QUANT",
+    "name": "GOFINTECH-500",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -1620,7 +1620,7 @@
     "ccass": "Y"
   },
   "00326": {
-    "name": "CN STAR ENT-2K",
+    "name": "CHINA STAR ENT",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -6306,7 +6306,7 @@
     "ccass": "Y"
   },
   "01396": {
-    "name": "GD-HKGBA HLDGS",
+    "name": "GBA AI COMP",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -6733,6 +6733,12 @@
   },
   "01508": {
     "name": "CHINA RE",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "01511": {
+    "name": "UISEE TECH",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -10734,7 +10740,7 @@
     "ccass": "Y"
   },
   "02481": {
-    "name": "WISE LIVING TEC",
+    "name": "SL GEMINI",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11915,20 +11921,8 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02945": {
-    "name": "CN STAR ENT-10K",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "02946": {
     "name": "EASYHOLD GP-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02947": {
-    "name": "FEG HOLDING RTS",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11939,14 +11933,26 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02949": {
-    "name": "PASHUN INT RTS",
+  "02950": {
+    "name": "SANERGY GROUP",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02950": {
-    "name": "SANERGY GROUP",
+  "02951": {
+    "name": "SOFTMEDX",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02952": {
+    "name": "HP LIVING RTS",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02955": {
+    "name": "GOFINTECH-2000",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -13709,6 +13715,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "06872": {
+    "name": "TENNOR THERAP-B",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "06877": {
     "name": "TE HEALTHCARE",
     "category": "Equity",
@@ -14009,6 +14021,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "07688": {
+    "name": "TOPNC",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "08003": {
     "name": "GREAT WORLD",
     "category": "Equity",
@@ -14064,7 +14082,7 @@
     "ccass": "Y"
   },
   "08021": {
-    "name": "WLS HOLDING-NEW",
+    "name": "WLS HOLDINGS",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -14250,7 +14268,7 @@
     "ccass": "Y"
   },
   "08069": {
-    "name": "FLYDOO TECH",
+    "name": "FLYDOO TECH-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -14808,7 +14826,7 @@
     "ccass": "Y"
   },
   "08239": {
-    "name": "CAPITAL FIN",
+    "name": "CAPITAL FIN-500",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15726,7 +15744,7 @@
     "ccass": "Y"
   },
   "08557": {
-    "name": "FLYDOO TECH",
+    "name": "FLYDOO TECH-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15737,8 +15755,8 @@
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
   },
-  "08600": {
-    "name": "WLS HOLDING-OLD",
+  "08559": {
+    "name": "CAPITAL FIN-10K",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
