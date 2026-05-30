@@ -4872,6 +4872,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "00901",
+    "name": "SDMC",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-30 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "00902",
     "name": "HUANENG POWER",
     "tier": "HIGH",
@@ -13497,6 +13504,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02723",
+    "name": "DEEPZERO",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-30 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02726",
     "name": "EPIWORLD",
     "tier": "HIGH",
@@ -13858,6 +13872,27 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02956",
+    "name": "CN HEALTH T RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-30 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02958",
+    "name": "VISION VALUES",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-30 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02959",
+    "name": "DUFU LIQUOR GP",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-30 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "03200",
     "name": "大族数控 Hans CNC",
     "tier": "STANDARD"
@@ -13926,6 +13961,13 @@
     "name": "C-MER MEDICAL",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-04-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "03310",
+    "name": "VIEWTRIX TECH",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-30 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -14137,6 +14179,13 @@
     "name": "AGILE GROUP",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-04-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "03388",
+    "name": "CREALITY",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-30 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -18234,6 +18283,13 @@
     "name": "WLSHOLDINGS RTS",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-05-02 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (GEM)"
+  },
+  {
+    "code": "08556",
+    "name": "NIUHOLDINGS RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-05-30 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (GEM)"
   },
   {

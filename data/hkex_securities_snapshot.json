@@ -4187,6 +4187,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "00901": {
+    "name": "SDMC",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "00902": {
     "name": "HUANENG POWER",
     "category": "Equity",
@@ -10686,7 +10692,7 @@
     "ccass": "Y"
   },
   "02459": {
-    "name": "SANERGY GROUP",
+    "name": "SANERGY GP-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -10722,7 +10728,7 @@
     "ccass": "Y"
   },
   "02477": {
-    "name": "WELLCELL H-NEW",
+    "name": "WELLCELL HOLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11717,6 +11723,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "02723": {
+    "name": "DEEPZERO",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "02726": {
     "name": "EPIWORLD",
     "category": "Equity",
@@ -11909,12 +11921,6 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02940": {
-    "name": "WELLCELL H-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "02944": {
     "name": "ZHONGKE GP-OLD",
     "category": "Equity",
@@ -11927,14 +11933,8 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02948": {
-    "name": "XIMEI RES-2500",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "02950": {
-    "name": "SANERGY GROUP",
+    "name": "SANERGY GP-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11945,14 +11945,26 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02952": {
-    "name": "HP LIVING RTS",
+  "02955": {
+    "name": "GOFINTECH-2000",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02955": {
-    "name": "GOFINTECH-2000",
+  "02956": {
+    "name": "CN HEALTH T RTS",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02958": {
+    "name": "VISION VALUES",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02959": {
+    "name": "DUFU LIQUOR GP",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12019,6 +12031,12 @@
   },
   "03309": {
     "name": "C-MER MEDICAL",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "03310": {
+    "name": "VIEWTRIX TECH",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12205,6 +12223,12 @@
   },
   "03383": {
     "name": "AGILE GROUP",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "03388": {
+    "name": "CREALITY",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -13662,7 +13686,7 @@
     "ccass": "Y"
   },
   "06855": {
-    "name": "ASCENTAGE-B",
+    "name": "ASCENTAGE",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -14442,7 +14466,7 @@
     "ccass": "Y"
   },
   "08123": {
-    "name": "SINOFORTUNE-NEW",
+    "name": "SINOFORTUNE FIN",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15731,14 +15755,14 @@
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
   },
-  "08552": {
-    "name": "SINOFORTUNE-OLD",
+  "08553": {
+    "name": "CHI 33MEDIA-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
   },
-  "08553": {
-    "name": "CHI 33MEDIA-OLD",
+  "08556": {
+    "name": "NIUHOLDINGS RTS",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -16326,7 +16350,7 @@
     "ccass": "Y"
   },
   "09936": {
-    "name": "XIMEI RES-500",
+    "name": "XIMEI RESOURCES",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
