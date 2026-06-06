@@ -3048,7 +3048,7 @@
     "ccass": "Y"
   },
   "00648": {
-    "name": "SOFTMEDX",
+    "name": "SOFTMEDX-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -4937,6 +4937,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "01081": {
+    "name": "DAJIN",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "01082": {
     "name": "BDV EDU INTL",
     "category": "Equity",
@@ -6138,7 +6144,7 @@
     "ccass": "Y"
   },
   "01347": {
-    "name": "HUA HONG SEMI",
+    "name": "HUA HONG GRACE",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -7578,7 +7584,7 @@
     "ccass": "Y"
   },
   "01703": {
-    "name": "EASYHOLD GP-NEW",
+    "name": "EASYHOLD GROUP",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -7951,6 +7957,12 @@
   },
   "01778": {
     "name": "COLOUR LIFE",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "01779": {
+    "name": "LONGBIO-B",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -8616,7 +8628,7 @@
     "ccass": "Y"
   },
   "01920": {
-    "name": "CHINA WACAN",
+    "name": "JUNWEA GROUP",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -10031,6 +10043,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "02290": {
+    "name": "LUNG FUNG GROUP",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "02291": {
     "name": "SCIENTECH",
     "category": "Equity",
@@ -11063,6 +11081,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "02553": {
+    "name": "SHOUGANG LANZA",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "02555": {
     "name": "CHABAIDAO",
     "category": "Equity",
@@ -11376,7 +11400,7 @@
     "ccass": "Y"
   },
   "02623": {
-    "name": "ADD NEW ENERGY",
+    "name": "HK GOLD IND GP",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11921,18 +11945,6 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02944": {
-    "name": "ZHONGKE GP-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02946": {
-    "name": "EASYHOLD GP-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "02950": {
     "name": "SANERGY GP-OLD",
     "category": "Equity",
@@ -11940,7 +11952,7 @@
     "ccass": "Y"
   },
   "02951": {
-    "name": "SOFTMEDX",
+    "name": "SOFTMEDX-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11951,10 +11963,10 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02956": {
-    "name": "CN HEALTH T RTS",
+  "02957": {
+    "name": "C FIN INT INV",
     "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
+    "sub_category": "Investment Companies",
     "ccass": "Y"
   },
   "02958": {
@@ -11965,6 +11977,24 @@
   },
   "02959": {
     "name": "DUFU LIQUOR GP",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02960": {
+    "name": "ALCO HOLD RTS",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02961": {
+    "name": "ZHONGSHEN RTS",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02962": {
+    "name": "XINMING CHINA",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12090,7 +12120,7 @@
     "ccass": "Y"
   },
   "03321": {
-    "name": "ZHONGKE GP-NEW",
+    "name": "ZHONGKE GROUP",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -14250,7 +14280,7 @@
     "ccass": "Y"
   },
   "08057": {
-    "name": "MADISON HLDG",
+    "name": "MADISON H-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -14352,7 +14382,7 @@
     "ccass": "Y"
   },
   "08087": {
-    "name": "CHI 33MEDIA-NEW",
+    "name": "CHINA 33MEDIA",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15755,12 +15785,6 @@
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
   },
-  "08553": {
-    "name": "CHI 33MEDIA-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (GEM)",
-    "ccass": "Y"
-  },
   "08556": {
     "name": "NIUHOLDINGS RTS",
     "category": "Equity",
@@ -15774,13 +15798,25 @@
     "ccass": "Y"
   },
   "08558": {
-    "name": "MADISON HLDG",
+    "name": "MADISON H-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
   },
   "08559": {
     "name": "CAPITAL FIN-10K",
+    "category": "Equity",
+    "sub_category": "Equity Securities (GEM)",
+    "ccass": "Y"
+  },
+  "08560": {
+    "name": "MADISON HLD RTS",
+    "category": "Equity",
+    "sub_category": "Equity Securities (GEM)",
+    "ccass": "Y"
+  },
+  "08561": {
+    "name": "I.CENTURY H RTS",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"

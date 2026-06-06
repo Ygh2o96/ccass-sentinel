@@ -5747,6 +5747,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "01081",
+    "name": "DAJIN",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-06 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "01082",
     "name": "BDV EDU INTL",
     "tier": "HIGH",
@@ -9256,6 +9263,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "01779",
+    "name": "LONGBIO-B",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-06 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "01780",
     "name": "RONGZUN INT'L H",
     "tier": "HIGH",
@@ -11668,6 +11682,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02290",
+    "name": "LUNG FUNG GROUP",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-06 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02291",
     "name": "SCIENTECH",
     "tier": "HIGH",
@@ -12856,6 +12877,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02553",
+    "name": "SHOUGANG LANZA",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-06 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02555",
     "name": "CHABAIDAO",
     "tier": "HIGH",
@@ -13879,6 +13907,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02957",
+    "name": "C FIN INT INV",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-06 (HKEX ListOfSecurities)",
+    "sub_category": "Investment Companies"
+  },
+  {
     "code": "02958",
     "name": "VISION VALUES",
     "tier": "HIGH",
@@ -13890,6 +13925,27 @@
     "name": "DUFU LIQUOR GP",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-05-30 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02960",
+    "name": "ALCO HOLD RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-06 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02961",
+    "name": "ZHONGSHEN RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-06 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02962",
+    "name": "XINMING CHINA",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-06 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -18311,6 +18367,20 @@
     "name": "CAPITAL FIN-10K",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-05-23 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (GEM)"
+  },
+  {
+    "code": "08560",
+    "name": "MADISON HLD RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-06 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (GEM)"
+  },
+  {
+    "code": "08561",
+    "name": "I.CENTURY H RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-06 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (GEM)"
   },
   {
