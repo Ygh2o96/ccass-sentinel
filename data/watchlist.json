@@ -13893,6 +13893,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02953",
+    "name": "MINERVA GP RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-13 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02955",
     "name": "GOFINTECH-2000",
     "tier": "HIGH",
@@ -15613,6 +15620,13 @@
     "name": "BAIWANG CO",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-04-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "06658",
+    "name": "LIULIUMEI",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-13 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -18381,6 +18395,20 @@
     "name": "I.CENTURY H RTS",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-06-06 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (GEM)"
+  },
+  {
+    "code": "08563",
+    "name": "HONG WEI A RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-13 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (GEM)"
+  },
+  {
+    "code": "08565",
+    "name": "CHINA INFO RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-13 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (GEM)"
   },
   {

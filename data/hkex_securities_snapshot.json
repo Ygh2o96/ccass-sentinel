@@ -1434,7 +1434,7 @@
     "ccass": "Y"
   },
   "00290": {
-    "name": "GOFINTECH-500",
+    "name": "GOFINTECH QUANT",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -4008,7 +4008,7 @@
     "ccass": "Y"
   },
   "00862": {
-    "name": "VISION VALUES",
+    "name": "VISION VAL-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -4524,7 +4524,7 @@
     "ccass": "Y"
   },
   "00986": {
-    "name": "DUFU LIQUOR GP",
+    "name": "DUFU LIQUOR-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11957,8 +11957,8 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02955": {
-    "name": "GOFINTECH-2000",
+  "02953": {
+    "name": "MINERVA GP RTS",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11970,25 +11970,13 @@
     "ccass": "Y"
   },
   "02958": {
-    "name": "VISION VALUES",
+    "name": "VISION VAL-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
   "02959": {
-    "name": "DUFU LIQUOR GP",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02960": {
-    "name": "ALCO HOLD RTS",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02961": {
-    "name": "ZHONGSHEN RTS",
+    "name": "DUFU LIQUOR-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -13469,6 +13457,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "06658": {
+    "name": "LIULIUMEI",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "06660": {
     "name": "AIM VACCINE",
     "category": "Equity",
@@ -14322,7 +14316,7 @@
     "ccass": "Y"
   },
   "08069": {
-    "name": "FLYDOO TECH-NEW",
+    "name": "FLYDOO TECH",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -14382,7 +14376,7 @@
     "ccass": "Y"
   },
   "08087": {
-    "name": "CHINA 33MEDIA",
+    "name": "CHINA 33 GROUP",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15785,18 +15779,6 @@
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
   },
-  "08556": {
-    "name": "NIUHOLDINGS RTS",
-    "category": "Equity",
-    "sub_category": "Equity Securities (GEM)",
-    "ccass": "Y"
-  },
-  "08557": {
-    "name": "FLYDOO TECH-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (GEM)",
-    "ccass": "Y"
-  },
   "08558": {
     "name": "MADISON H-OLD",
     "category": "Equity",
@@ -15809,14 +15791,14 @@
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
   },
-  "08560": {
-    "name": "MADISON HLD RTS",
+  "08563": {
+    "name": "HONG WEI A RTS",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
   },
-  "08561": {
-    "name": "I.CENTURY H RTS",
+  "08565": {
+    "name": "CHINA INFO RTS",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
