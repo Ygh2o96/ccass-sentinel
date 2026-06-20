@@ -3180,7 +3180,7 @@
     "ccass": "Y"
   },
   "00679": {
-    "name": "ASIA TELE-NET",
+    "name": "ASIA TELE-N-5K",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -3396,7 +3396,7 @@
     "ccass": "Y"
   },
   "00721": {
-    "name": "C FIN INT INV",
+    "name": "C FIN INT I-NEW",
     "category": "Equity",
     "sub_category": "Investment Companies",
     "ccass": "Y"
@@ -6301,6 +6301,12 @@
   },
   "01389": {
     "name": "MAJOR HLDGS",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "01392": {
+    "name": "HQVT",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -10710,7 +10716,7 @@
     "ccass": "Y"
   },
   "02459": {
-    "name": "SANERGY GP-NEW",
+    "name": "SANERGY GROUP",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11694,7 +11700,7 @@
     "ccass": "Y"
   },
   "02699": {
-    "name": "XINMING CHINA",
+    "name": "XINMING CHI-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11945,26 +11951,14 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02950": {
-    "name": "SANERGY GP-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "02951": {
     "name": "SOFTMEDX-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02953": {
-    "name": "MINERVA GP RTS",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "02957": {
-    "name": "C FIN INT INV",
+    "name": "C FIN INT I-OLD",
     "category": "Equity",
     "sub_category": "Investment Companies",
     "ccass": "Y"
@@ -11982,7 +11976,19 @@
     "ccass": "Y"
   },
   "02962": {
-    "name": "XINMING CHINA",
+    "name": "XINMING CHI-OLD",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02964": {
+    "name": "XINMING CHI RTS",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02965": {
+    "name": "ASIA TELE-N-10K",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -13505,6 +13511,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "06675": {
+    "name": "SENASIC",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "06676": {
     "name": "ZG GROUP-W",
     "category": "Equity",
@@ -14874,7 +14886,7 @@
     "ccass": "Y"
   },
   "08239": {
-    "name": "CAPITAL FIN-500",
+    "name": "CAPITAL FIN",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15781,18 +15793,6 @@
   },
   "08558": {
     "name": "MADISON H-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (GEM)",
-    "ccass": "Y"
-  },
-  "08559": {
-    "name": "CAPITAL FIN-10K",
-    "category": "Equity",
-    "sub_category": "Equity Securities (GEM)",
-    "ccass": "Y"
-  },
-  "08563": {
-    "name": "HONG WEI A RTS",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"

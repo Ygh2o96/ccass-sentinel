@@ -7335,6 +7335,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "01392",
+    "name": "HQVT",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-20 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "01393",
     "name": "HIDILI INDUSTRY",
     "tier": "HIGH",
@@ -13956,6 +13963,20 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02964",
+    "name": "XINMING CHI RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-20 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02965",
+    "name": "ASIA TELE-N-10K",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-20 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "03200",
     "name": "大族数控 Hans CNC",
     "tier": "STANDARD"
@@ -15676,6 +15697,13 @@
     "name": "ACOTEC-B",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-04-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "06675",
+    "name": "SENASIC",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-20 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
