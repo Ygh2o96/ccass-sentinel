@@ -2202,7 +2202,7 @@
     "ccass": "Y"
   },
   "00451": {
-    "name": "GCL NEWENERGY",
+    "name": "DYNASTY DIGITAL",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -2670,7 +2670,7 @@
     "ccass": "Y"
   },
   "00567": {
-    "name": "DAISHOMICROLINE",
+    "name": "JSMART TECH",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -3048,7 +3048,7 @@
     "ccass": "Y"
   },
   "00648": {
-    "name": "SOFTMEDX-NEW",
+    "name": "SOFTMEDX",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -3409,12 +3409,6 @@
   },
   "00723": {
     "name": "RELIANCE GLO HL",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "00724": {
-    "name": "RUIXIN INT'L",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -5459,6 +5453,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "01191": {
+    "name": "CREALIGHTS",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "01193": {
     "name": "CHINA RES GAS",
     "category": "Equity",
@@ -7476,7 +7476,7 @@
     "ccass": "Y"
   },
   "01676": {
-    "name": "GAODI HOLDINGS",
+    "name": "GAODI HOLD-10K",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -7519,6 +7519,12 @@
   },
   "01686": {
     "name": "SUNEVISION",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "01688": {
+    "name": "LINGYI ITECH",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -8286,7 +8292,7 @@
     "ccass": "Y"
   },
   "01850": {
-    "name": "HSC RESOURCES",
+    "name": "BEAUTIFULLIFEGP",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -8797,6 +8803,12 @@
   },
   "01955": {
     "name": "JOHNSON HLDGS",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "01956": {
+    "name": "WENGE AI",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -9983,6 +9995,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "02272": {
+    "name": "KEYTOP PARKING",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "02273": {
     "name": "GUSHENGTANG",
     "category": "Equity",
@@ -10237,6 +10255,12 @@
   },
   "02333": {
     "name": "GWMOTOR",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02335": {
+    "name": "MICOT PHARMA-B",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11597,6 +11621,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "02672": {
+    "name": "BAIGE DIGITAL",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "02675": {
     "name": "EDGE MEDICAL-B",
     "category": "Equity",
@@ -11951,8 +11981,8 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02951": {
-    "name": "SOFTMEDX-OLD",
+  "02954": {
+    "name": "KAISA HEALTH",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11981,14 +12011,62 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02964": {
-    "name": "XINMING CHI RTS",
+  "02963": {
+    "name": "CITYCHAMP RTS",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
   "02965": {
     "name": "ASIA TELE-N-10K",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02966": {
+    "name": "APAC RES RTS",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02967": {
+    "name": "JAKOTA CAPITAL",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02968": {
+    "name": "XH NEWS MEDIA",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02969": {
+    "name": "GLOBAL BIO-CHEM",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02970": {
+    "name": "MTT GROUP RTS",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02971": {
+    "name": "CHINA ECOTOUR",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02972": {
+    "name": "GAODI HOLD RTS",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02973": {
+    "name": "GAODI HOLD-4000",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12403,6 +12481,12 @@
   },
   "03660": {
     "name": "QFIN-S",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "03661": {
+    "name": "SG MICRO",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -13067,6 +13151,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "06067": {
+    "name": "SENIOR MATERIAL",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "06068": {
     "name": "WISDOM EDU INTL",
     "category": "Equity",
@@ -13145,6 +13235,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "06106": {
+    "name": "SEER TECH",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "06108": {
     "name": "NEW RAY MEDIC",
     "category": "Equity",
@@ -13195,6 +13291,12 @@
   },
   "06128": {
     "name": "GRAPHEX GROUP",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "06132": {
+    "name": "HJ SCIENCE-B",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -13329,6 +13431,12 @@
     "name": "BANK OF GUIZHOU",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "06228": {
+    "name": "MERDEKAGOLD-DRS",
+    "category": "Equity",
+    "sub_category": "Depositary Receipts",
     "ccass": "Y"
   },
   "06288": {
@@ -14286,7 +14394,7 @@
     "ccass": "Y"
   },
   "08057": {
-    "name": "MADISON H-NEW",
+    "name": "MADISON HLDG",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15791,14 +15899,20 @@
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
   },
-  "08558": {
-    "name": "MADISON H-OLD",
+  "08566": {
+    "name": "REACH NEW HLDGS",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
   },
-  "08565": {
-    "name": "CHINA INFO RTS",
+  "08568": {
+    "name": "WT GROUP RTS",
+    "category": "Equity",
+    "sub_category": "Equity Securities (GEM)",
+    "ccass": "Y"
+  },
+  "08569": {
+    "name": "V&V TECH RTS",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15989,6 +16103,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "09630": {
+    "name": "CFMEE",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "09633": {
     "name": "NONGFU SPRING",
     "category": "Equity",
@@ -15997,6 +16117,12 @@
   },
   "09636": {
     "name": "JF SMARTINVEST",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "09637": {
+    "name": "ALEBUND-B",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"

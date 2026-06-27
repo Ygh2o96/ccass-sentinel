@@ -6356,6 +6356,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "01191",
+    "name": "CREALIGHTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-27 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "01193",
     "name": "CHINA RES GAS",
     "tier": "HIGH",
@@ -8754,6 +8761,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "01688",
+    "name": "LINGYI ITECH",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-27 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "01689",
     "name": "HUAXIHOLDINGS",
     "tier": "HIGH",
@@ -10241,6 +10255,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "01956",
+    "name": "WENGE AI",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-27 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "01957",
     "name": "MBV INTL",
     "tier": "HIGH",
@@ -11612,6 +11633,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02272",
+    "name": "KEYTOP PARKING",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-27 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02273",
     "name": "GUSHENGTANG",
     "tier": "HIGH",
@@ -11910,6 +11938,13 @@
     "name": "GWMOTOR",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-04-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02335",
+    "name": "MICOT PHARMA-B",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-27 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -13389,6 +13424,13 @@
     "tier": "STANDARD"
   },
   {
+    "code": "02672",
+    "name": "BAIGE DIGITAL",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-27 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02675",
     "name": "安锐医疗 Edge Medical",
     "tier": "STANDARD"
@@ -13907,6 +13949,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02954",
+    "name": "KAISA HEALTH",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-27 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02955",
     "name": "GOFINTECH-2000",
     "tier": "HIGH",
@@ -13963,6 +14012,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02963",
+    "name": "CITYCHAMP RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-27 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02964",
     "name": "XINMING CHI RTS",
     "tier": "HIGH",
@@ -13974,6 +14030,62 @@
     "name": "ASIA TELE-N-10K",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-06-20 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02966",
+    "name": "APAC RES RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-27 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02967",
+    "name": "JAKOTA CAPITAL",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-27 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02968",
+    "name": "XH NEWS MEDIA",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-27 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02969",
+    "name": "GLOBAL BIO-CHEM",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-27 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02970",
+    "name": "MTT GROUP RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-27 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02971",
+    "name": "CHINA ECOTOUR",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-27 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02972",
+    "name": "GAODI HOLD RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-27 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02973",
+    "name": "GAODI HOLD-4000",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-27 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -14443,6 +14555,13 @@
     "name": "QFIN-S",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-04-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "03661",
+    "name": "SG MICRO",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-27 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -15198,6 +15317,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "06067",
+    "name": "SENIOR MATERIAL",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-27 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "06068",
     "name": "WISDOM EDU INTL",
     "tier": "HIGH",
@@ -15285,6 +15411,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "06106",
+    "name": "SEER TECH",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-27 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "06108",
     "name": "NEW RAY MEDIC",
     "tier": "HIGH",
@@ -15345,6 +15478,13 @@
     "name": "GRAPHEX GROUP",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-04-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "06132",
+    "name": "HJ SCIENCE-B",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-27 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -15496,6 +15636,13 @@
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-04-11 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "06228",
+    "name": "MERDEKAGOLD-DRS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-27 (HKEX ListOfSecurities)",
+    "sub_category": "Depositary Receipts"
   },
   {
     "code": "06288",
@@ -18440,6 +18587,27 @@
     "sub_category": "Equity Securities (GEM)"
   },
   {
+    "code": "08566",
+    "name": "REACH NEW HLDGS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-27 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (GEM)"
+  },
+  {
+    "code": "08568",
+    "name": "WT GROUP RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-27 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (GEM)"
+  },
+  {
+    "code": "08569",
+    "name": "V&V TECH RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-27 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (GEM)"
+  },
+  {
     "code": "08600",
     "name": "WLS HOLDINGS",
     "tier": "HIGH",
@@ -18658,6 +18826,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "09630",
+    "name": "CFMEE",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-27 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "09633",
     "name": "NONGFU SPRING",
     "tier": "HIGH",
@@ -18669,6 +18844,13 @@
     "name": "JF SMARTINVEST",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-04-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "09637",
+    "name": "ALEBUND-B",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-06-27 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
