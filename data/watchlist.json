@@ -3644,6 +3644,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "00668",
+    "name": "ANKER",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-04 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "00669",
     "name": "TECHTRONIC IND",
     "tier": "HIGH",
@@ -13525,6 +13532,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02697",
+    "name": "TH MEDICAL-B",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-04 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02698",
     "name": "Softcare Limited",
     "tier": "STANDARD"
@@ -14086,6 +14100,34 @@
     "name": "GAODI HOLD-4000",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-06-27 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02974",
+    "name": "ARTGO HOLDINGS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-04 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02975",
+    "name": "YOUZAN",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-04 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02976",
+    "name": "MEXAN",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-04 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02977",
+    "name": "YUANHENG GAS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-04 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -14755,6 +14797,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "03774",
+    "name": "FAMEGLOW",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-04 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "03778",
     "name": "CHINA WEAVING",
     "tier": "HIGH",
@@ -15073,6 +15122,13 @@
     "name": "WANGUO GOLD GP",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-04-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "03952",
+    "name": "LAIFUAL",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-04 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -15943,6 +15999,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "06715",
+    "name": "XUNLONG SCITECH",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-04 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "06805",
     "name": "KIMOU ENVIRON",
     "tier": "HIGH",
@@ -16282,6 +16345,13 @@
     "name": "SCVE GROUP",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-04-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "06915",
+    "name": "JIANGXI BIO",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-04 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -18605,6 +18675,20 @@
     "name": "V&V TECH RTS",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-06-27 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (GEM)"
+  },
+  {
+    "code": "08570",
+    "name": "TASTY CON RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-04 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (GEM)"
+  },
+  {
+    "code": "08571",
+    "name": "CH NETCOMTECH",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-04 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (GEM)"
   },
   {

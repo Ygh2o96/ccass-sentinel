@@ -3131,6 +3131,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "00668": {
+    "name": "ANKER",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "00669": {
     "name": "TECHTRONIC IND",
     "category": "Equity",
@@ -4002,7 +4008,7 @@
     "ccass": "Y"
   },
   "00862": {
-    "name": "VISION VAL-NEW",
+    "name": "VISION VALUES",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -4518,7 +4524,7 @@
     "ccass": "Y"
   },
   "00986": {
-    "name": "DUFU LIQUOR-NEW",
+    "name": "DUFU LIQUOR GP",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11723,6 +11729,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "02697": {
+    "name": "TH MEDICAL-B",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "02698": {
     "name": "SOFTCARE",
     "category": "Equity",
@@ -11993,18 +12005,6 @@
     "sub_category": "Investment Companies",
     "ccass": "Y"
   },
-  "02958": {
-    "name": "VISION VAL-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02959": {
-    "name": "DUFU LIQUOR-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "02962": {
     "name": "XINMING CHI-OLD",
     "category": "Equity",
@@ -12019,12 +12019,6 @@
   },
   "02965": {
     "name": "ASIA TELE-N-10K",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02966": {
-    "name": "APAC RES RTS",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12067,6 +12061,30 @@
   },
   "02973": {
     "name": "GAODI HOLD-4000",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02974": {
+    "name": "ARTGO HOLDINGS",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02975": {
+    "name": "YOUZAN",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02976": {
+    "name": "MEXAN",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02977": {
+    "name": "YUANHENG GAS",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12659,6 +12677,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "03774": {
+    "name": "FAMEGLOW",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "03778": {
     "name": "CHINA WEAVING",
     "category": "Equity",
@@ -12937,6 +12961,12 @@
   },
   "03939": {
     "name": "WANGUO GOLD GP",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "03952": {
+    "name": "LAIFUAL",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -13703,6 +13733,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "06715": {
+    "name": "XUNLONG SCITECH",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "06805": {
     "name": "KIMOU ENVIRON",
     "category": "Equity",
@@ -13999,6 +14035,12 @@
   },
   "06913": {
     "name": "SCVE GROUP",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "06915": {
+    "name": "JIANGXI BIO",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -14353,12 +14395,6 @@
   },
   "08047": {
     "name": "CHINA OCEAN GP",
-    "category": "Equity",
-    "sub_category": "Equity Securities (GEM)",
-    "ccass": "Y"
-  },
-  "08048": {
-    "name": "YU TAK INT'L",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15450,7 +15486,7 @@
     "ccass": "Y"
   },
   "08401": {
-    "name": "STREAM IDEAS",
+    "name": "HUA XIA WATER",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15905,26 +15941,26 @@
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
   },
-  "08568": {
-    "name": "WT GROUP RTS",
-    "category": "Equity",
-    "sub_category": "Equity Securities (GEM)",
-    "ccass": "Y"
-  },
   "08569": {
     "name": "V&V TECH RTS",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
   },
-  "08601": {
-    "name": "BOLTEK",
+  "08570": {
+    "name": "TASTY CON RTS",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
   },
-  "08603": {
-    "name": "FAMEGLOW",
+  "08571": {
+    "name": "CH NETCOMTECH",
+    "category": "Equity",
+    "sub_category": "Equity Securities (GEM)",
+    "ccass": "Y"
+  },
+  "08601": {
+    "name": "BOLTEK",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -16680,7 +16716,7 @@
     "ccass": "Y"
   },
   "09999": {
-    "name": "NTES-S",
+    "name": "NTES",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
