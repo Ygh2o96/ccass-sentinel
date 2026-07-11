@@ -2962,6 +2962,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "00537",
+    "name": "RIGOL",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "00538",
     "name": "AJISEN (CHINA)",
     "tier": "HIGH",
@@ -7295,6 +7302,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "01377",
+    "name": "DTECH",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "01378",
     "name": "CHINAHONGQIAO",
     "tier": "HIGH",
@@ -9239,6 +9253,13 @@
     "name": "SCHOLAR EDU",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-04-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "01770",
+    "name": "DKE",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-11 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -11523,6 +11544,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02249",
+    "name": "NEXCHIP",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02250",
     "name": "B.DUCK SEMK",
     "tier": "HIGH",
@@ -12539,6 +12567,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02475",
+    "name": "LUXSHARE ICT",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02476",
     "name": "VGT",
     "tier": "HIGH",
@@ -13407,6 +13442,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02667",
+    "name": "TONGRENTANGCARE",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02668",
     "name": "PAK TAK INT'L",
     "tier": "HIGH",
@@ -13677,6 +13719,13 @@
     "name": "YUANDA CHINA",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-04-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02797",
+    "name": "QIYUNSHAN FOOD",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-11 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -14128,6 +14177,41 @@
     "name": "YUANHENG GAS",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-07-04 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02979",
+    "name": "HAOSEN FINTECH",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02980",
+    "name": "FDB HOLD RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02983",
+    "name": "HESAI-W",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02985",
+    "name": "HK GOLD IND-2K",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02986",
+    "name": "HUISHENG INTL",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-11 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -14774,6 +14858,13 @@
     "code": "03750",
     "name": "Contemporary Amperex Technolog",
     "tier": "STANDARD"
+  },
+  {
+    "code": "03752",
+    "name": "ROKAE ROBOTICS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
   },
   {
     "code": "03759",
@@ -16006,6 +16097,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "06745",
+    "name": "BEFAR GROUP",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "06805",
     "name": "KIMOU ENVIRON",
     "tier": "HIGH",
@@ -16233,6 +16331,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "06880",
+    "name": "MOMENTA-W",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "06881",
     "name": "CGS",
     "tier": "HIGH",
@@ -16416,6 +16521,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "06951",
+    "name": "CCTC",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "06955",
     "name": "BOAN BIOTECH",
     "tier": "HIGH",
@@ -16557,10 +16669,24 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "07656",
+    "name": "RECONOVA",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "07666",
     "name": "METIS TECHBIO-P",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-05-16 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "07687",
+    "name": "EACON",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-11 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -16932,6 +17058,13 @@
     "name": "CHINA 33MEDIA",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-04-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (GEM)"
+  },
+  {
+    "code": "08090",
+    "name": "BAOGAI",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-11 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (GEM)"
   },
   {
@@ -19434,6 +19567,13 @@
     "name": "INNOCARE",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-04-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "09971",
+    "name": "BASICSEMI",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-11 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
