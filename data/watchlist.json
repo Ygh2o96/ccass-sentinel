@@ -14215,6 +14215,41 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02988",
+    "name": "GREEN LEADER",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-18 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02989",
+    "name": "CF PHARMT-500",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-18 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02990",
+    "name": "DT CAPITAL",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-18 (HKEX ListOfSecurities)",
+    "sub_category": "Investment Companies"
+  },
+  {
+    "code": "02994",
+    "name": "GW TERROIR-50K",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-18 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02995",
+    "name": "ARTINI HLDG",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-18 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "03200",
     "name": "大族数控 Hans CNC",
     "tier": "STANDARD"
@@ -18773,6 +18808,13 @@
     "name": "I.CENTURY H RTS",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-06-06 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (GEM)"
+  },
+  {
+    "code": "08562",
+    "name": "JUFEEL RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-18 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (GEM)"
   },
   {
