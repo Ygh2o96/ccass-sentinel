@@ -558,7 +558,7 @@
     "ccass": "Y"
   },
   "00108": {
-    "name": "GR LIFE STYLE",
+    "name": "SR MEDICAL",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -2345,12 +2345,6 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "00495": {
-    "name": "PALADIN",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "00496": {
     "name": "KASEN",
     "category": "Equity",
@@ -3432,7 +3426,7 @@
     "ccass": "Y"
   },
   "00727": {
-    "name": "CROWNICORP",
+    "name": "SINOPROS CORP",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -3870,7 +3864,7 @@
     "ccass": "Y"
   },
   "00834": {
-    "name": "KANGDA FOOD",
+    "name": "SHENGRONG HLDG",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -6120,7 +6114,7 @@
     "ccass": "Y"
   },
   "01340": {
-    "name": "HUISHENG INTL",
+    "name": "HUISHENG I-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -7374,7 +7368,7 @@
     "ccass": "Y"
   },
   "01651": {
-    "name": "TSUGAMI CHINA",
+    "name": "TSUGAMI CHI-500",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -7488,7 +7482,7 @@
     "ccass": "Y"
   },
   "01676": {
-    "name": "GAODI HOLD-10K",
+    "name": "GAODI HOLDINGS",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -10344,7 +10338,7 @@
     "ccass": "Y"
   },
   "02349": {
-    "name": "CH CITY INFRA",
+    "name": "CHINA AI INFRA",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11034,7 +11028,7 @@
     "ccass": "Y"
   },
   "02525": {
-    "name": "HESAI-W",
+    "name": "HESAI-W-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12059,12 +12053,6 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02973": {
-    "name": "GAODI HOLD-4000",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "02974": {
     "name": "ARTGO HOLD-OLD",
     "category": "Equity",
@@ -12090,13 +12078,13 @@
     "ccass": "Y"
   },
   "02979": {
-    "name": "HAOSEN FINTECH",
+    "name": "HAOSEN FINT-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
   "02983": {
-    "name": "HESAI-W",
+    "name": "HESAI-W-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12108,7 +12096,7 @@
     "ccass": "Y"
   },
   "02986": {
-    "name": "HUISHENG INTL",
+    "name": "HUISHENG I-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12131,6 +12119,12 @@
     "sub_category": "Investment Companies",
     "ccass": "Y"
   },
+  "02991": {
+    "name": "POLY XVERSE IT",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "02994": {
     "name": "GW TERROIR-50K",
     "category": "Equity",
@@ -12139,6 +12133,12 @@
   },
   "02995": {
     "name": "ARTINI HLDG",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02997": {
+    "name": "TSUGAMI CHI-1K",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12834,13 +12834,13 @@
     "ccass": "Y"
   },
   "03839": {
-    "name": "CT ENTERPRISE",
+    "name": "CPBIO",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
   "03848": {
-    "name": "HAOSEN FINTECH",
+    "name": "HAOSEN FINT-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -14940,7 +14940,7 @@
     "ccass": "Y"
   },
   "08186": {
-    "name": "ALMANA",
+    "name": "HONOR MATRIX",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"

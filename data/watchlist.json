@@ -14236,6 +14236,13 @@
     "sub_category": "Investment Companies"
   },
   {
+    "code": "02991",
+    "name": "POLY XVERSE IT",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-25 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02994",
     "name": "GW TERROIR-50K",
     "tier": "HIGH",
@@ -14247,6 +14254,13 @@
     "name": "ARTINI HLDG",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-07-18 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02997",
+    "name": "TSUGAMI CHI-1K",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-07-25 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
