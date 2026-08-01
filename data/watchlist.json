@@ -13865,6 +13865,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02900",
+    "name": "LVJI TECH",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-08-01 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02929",
     "name": "STERLING GP-OLD",
     "tier": "HIGH",
@@ -14215,6 +14222,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02987",
+    "name": "MOG DIGITEC RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-08-01 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02988",
     "name": "GREEN LEADER",
     "tier": "HIGH",
@@ -14240,6 +14254,13 @@
     "name": "POLY XVERSE IT",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-07-25 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02993",
+    "name": "IMPERIUM T RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-08-01 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -14325,6 +14346,13 @@
     "name": "JNBY",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-04-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "03308",
+    "name": "ZJ INNOLIGHT",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-08-01 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
