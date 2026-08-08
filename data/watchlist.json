@@ -11612,6 +11612,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02261",
+    "name": "NASN TECH",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-08-08 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02262",
     "name": "SLD GROUP",
     "tier": "HIGH",
@@ -13869,6 +13876,20 @@
     "name": "LVJI TECH",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-08-01 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02902",
+    "name": "BIOSYSEN RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-08-08 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02903",
+    "name": "SUNCORP TECH",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-08-08 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -18906,6 +18927,13 @@
     "name": "CH NETCOMTECH",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-07-04 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (GEM)"
+  },
+  {
+    "code": "08577",
+    "name": "BRIGHTSTAR TECH",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-08-08 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (GEM)"
   },
   {

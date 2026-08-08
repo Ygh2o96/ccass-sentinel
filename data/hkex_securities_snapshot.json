@@ -108,7 +108,7 @@
     "ccass": "Y"
   },
   "00022": {
-    "name": "MEXAN-NEW",
+    "name": "MEXAN",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -1056,7 +1056,7 @@
     "ccass": "Y"
   },
   "00209": {
-    "name": "POLY XVERSE IT",
+    "name": "POLY XVERSE-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -1656,7 +1656,7 @@
     "ccass": "Y"
   },
   "00332": {
-    "name": "YUANHENGGAS-NEW",
+    "name": "YUANHENG GAS",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -2472,7 +2472,7 @@
     "ccass": "Y"
   },
   "00524": {
-    "name": "GW TERROIR-10K",
+    "name": "GW TERROIR",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -2490,7 +2490,7 @@
     "ccass": "Y"
   },
   "00527": {
-    "name": "RUIFENG RENEW",
+    "name": "RF GREEN EN AI",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -3654,7 +3654,7 @@
     "ccass": "Y"
   },
   "00784": {
-    "name": "LING YUI",
+    "name": "AILIFE INTL",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -5243,12 +5243,6 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "01143": {
-    "name": "CN ENGY STORAGE",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "01145": {
     "name": "COURAGE INV",
     "category": "Equity",
@@ -5713,12 +5707,6 @@
   },
   "01245": {
     "name": "NIRAKU",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "01246": {
-    "name": "BOILLHEALTHCARE",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -6228,7 +6216,7 @@
     "ccass": "Y"
   },
   "01371": {
-    "name": "CN ECOTOUR-NEW",
+    "name": "CHINA ECOTOUR",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -6492,7 +6480,7 @@
     "ccass": "Y"
   },
   "01432": {
-    "name": "CHINA SHENGMU",
+    "name": "CHINASHENGMU-PF",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -9965,6 +9953,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "02261": {
+    "name": "NASN TECH",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "02262": {
     "name": "SLD GROUP",
     "category": "Equity",
@@ -11556,7 +11550,7 @@
     "ccass": "Y"
   },
   "02652": {
-    "name": "CF PHARMT-100",
+    "name": "CF PHARMTECH",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11682,7 +11676,7 @@
     "ccass": "Y"
   },
   "02680": {
-    "name": "INNOVAX HLDGS",
+    "name": "AUSTRAX HLDGS",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12029,32 +12023,14 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02971": {
-    "name": "CN ECOTOUR-OLD",
+  "02902": {
+    "name": "BIOSYSEN RTS",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02974": {
-    "name": "ARTGO HOLD-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02975": {
-    "name": "YOUZAN-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02976": {
-    "name": "MEXAN-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02977": {
-    "name": "YUANHENGGAS-OLD",
+  "02903": {
+    "name": "SUNCORP TECH",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12077,20 +12053,8 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02987": {
-    "name": "MOG DIGITEC RTS",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "02988": {
     "name": "GREEN LEAD-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02989": {
-    "name": "CF PHARMT-500",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12102,19 +12066,7 @@
     "ccass": "Y"
   },
   "02991": {
-    "name": "POLY XVERSE IT",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02993": {
-    "name": "IMPERIUM T RTS",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02994": {
-    "name": "GW TERROIR-50K",
+    "name": "POLY XVERSE-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12216,7 +12168,7 @@
     "ccass": "Y"
   },
   "03313": {
-    "name": "ARTGO HOLD-NEW",
+    "name": "ARTGO HOLDINGS",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12960,7 +12912,7 @@
     "ccass": "Y"
   },
   "03903": {
-    "name": "HANHUA FIN",
+    "name": "HANHUA HOLDING",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -13200,7 +13152,7 @@
     "ccass": "Y"
   },
   "06051": {
-    "name": "YOUZAN-NEW",
+    "name": "YOUZAN",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -14568,7 +14520,7 @@
     "ccass": "Y"
   },
   "08071": {
-    "name": "CH NETCOM-NEW",
+    "name": "CH NETCOMTECH",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -14748,7 +14700,7 @@
     "ccass": "Y"
   },
   "08128": {
-    "name": "CHYY GP",
+    "name": "SINO ENGY CONS",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -16025,8 +15977,8 @@
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
   },
-  "08571": {
-    "name": "CH NETCOM-OLD",
+  "08577": {
+    "name": "BRIGHTSTAR TECH",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
