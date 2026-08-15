@@ -13879,6 +13879,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02901",
+    "name": "FANTASIA",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-08-15 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02902",
     "name": "BIOSYSEN RTS",
     "tier": "HIGH",
@@ -13890,6 +13897,20 @@
     "name": "SUNCORP TECH",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-08-08 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02904",
+    "name": "CMON RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-08-15 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02905",
+    "name": "CN CULTURE-20K",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-08-15 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
