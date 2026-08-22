@@ -300,7 +300,7 @@
     "ccass": "Y"
   },
   "00061": {
-    "name": "GREEN LEAD-NEW",
+    "name": "GREEN LEADER",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -991,12 +991,6 @@
   },
   "00194": {
     "name": "LIU CHONG HING",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "00195": {
-    "name": "GREENTECH INTL",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -1776,7 +1770,7 @@
     "ccass": "Y"
   },
   "00356": {
-    "name": "DT CAPITAL-NEW",
+    "name": "DT CAPITAL",
     "category": "Equity",
     "sub_category": "Investment Companies",
     "ccass": "Y"
@@ -2748,7 +2742,7 @@
     "ccass": "Y"
   },
   "00585": {
-    "name": "IMAGI INT'L",
+    "name": "IMAGI INT'L-500",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -3666,7 +3660,7 @@
     "ccass": "Y"
   },
   "00789": {
-    "name": "ARTINI HLDG-NEW",
+    "name": "ARTINI HLDG",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -4704,7 +4698,7 @@
     "ccass": "Y"
   },
   "01027": {
-    "name": "ASIA STRAT TECH",
+    "name": "ASIA STRAT-1K",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -4854,7 +4848,7 @@
     "ccass": "Y"
   },
   "01063": {
-    "name": "SUNCORP TECH",
+    "name": "SUNCORP TEC-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -8394,7 +8388,7 @@
     "ccass": "Y"
   },
   "01870": {
-    "name": "ACME INTL HLDGS",
+    "name": "GREEN POWER GP",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12024,13 +12018,7 @@
     "ccass": "Y"
   },
   "02903": {
-    "name": "SUNCORP TECH",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02904": {
-    "name": "CMON RTS",
+    "name": "SUNCORP TEC-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12041,26 +12029,32 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02988": {
-    "name": "GREEN LEAD-OLD",
+  "02907": {
+    "name": "CH WOOD INT RTS",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02990": {
-    "name": "DT CAPITAL-OLD",
+  "02908": {
+    "name": "BJ SPORTS & ENT",
     "category": "Equity",
-    "sub_category": "Investment Companies",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02909": {
+    "name": "IMAGI INT'L-8K",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02910": {
+    "name": "ASIA STRAT-10K",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
   "02991": {
     "name": "POLY XVERSE-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02995": {
-    "name": "ARTINI HLDG-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -14676,7 +14670,7 @@
     "ccass": "Y"
   },
   "08125": {
-    "name": "CHINA NEW HLDGS",
+    "name": "RJVAN",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15666,7 +15660,7 @@
     "ccass": "Y"
   },
   "08446": {
-    "name": "BRIGHTSTAR TECH",
+    "name": "BRIGHTSTAR-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15960,7 +15954,7 @@
     "ccass": "Y"
   },
   "08577": {
-    "name": "BRIGHTSTAR TECH",
+    "name": "BRIGHTSTAR-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"

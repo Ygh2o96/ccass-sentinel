@@ -13914,6 +13914,34 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02907",
+    "name": "CH WOOD INT RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-08-22 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02908",
+    "name": "BJ SPORTS & ENT",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-08-22 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02909",
+    "name": "IMAGI INT'L-8K",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-08-22 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02910",
+    "name": "ASIA STRAT-10K",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-08-22 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02929",
     "name": "STERLING GP-OLD",
     "tier": "HIGH",
