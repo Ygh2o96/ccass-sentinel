@@ -13942,6 +13942,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02912",
+    "name": "EASYKNIT INT'L",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-08-29 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02929",
     "name": "STERLING GP-OLD",
     "tier": "HIGH",
@@ -14358,6 +14365,13 @@
     "code": "03200",
     "name": "大族数控 Hans CNC",
     "tier": "STANDARD"
+  },
+  {
+    "code": "03223",
+    "name": "INGENIC",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-08-29 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
   },
   {
     "code": "03268",
@@ -18983,6 +18997,13 @@
     "name": "BRIGHTSTAR TECH",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-08-08 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (GEM)"
+  },
+  {
+    "code": "08578",
+    "name": "GUOEN HLDGS RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-08-29 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (GEM)"
   },
   {

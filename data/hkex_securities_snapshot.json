@@ -1050,7 +1050,7 @@
     "ccass": "Y"
   },
   "00209": {
-    "name": "POLY XVERSE-NEW",
+    "name": "POLY XVERSE IT",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -4998,7 +4998,7 @@
     "ccass": "Y"
   },
   "01097": {
-    "name": "I-CABLE COMM",
+    "name": "CTFME",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -5898,7 +5898,7 @@
     "ccass": "Y"
   },
   "01292": {
-    "name": "CMA LOGISTICS",
+    "name": "CM LOGISTICS",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -7956,7 +7956,7 @@
     "ccass": "Y"
   },
   "01777": {
-    "name": "FANTASIA",
+    "name": "FANTASIA-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11142,7 +11142,7 @@
     "ccass": "Y"
   },
   "02559": {
-    "name": "DIDA INC",
+    "name": "DIDA INC-PF",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12012,7 +12012,7 @@
     "ccass": "Y"
   },
   "02901": {
-    "name": "FANTASIA",
+    "name": "FANTASIA-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12025,12 +12025,6 @@
   },
   "02905": {
     "name": "CN CULTURE-20K",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02907": {
-    "name": "CH WOOD INT RTS",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12053,14 +12047,20 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02991": {
-    "name": "POLY XVERSE-OLD",
+  "02912": {
+    "name": "EASYKNIT INT'L",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
   "03200": {
     "name": "HANS CNC",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "03223": {
+    "name": "INGENIC",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -15959,6 +15959,12 @@
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
   },
+  "08578": {
+    "name": "GUOEN HLDGS RTS",
+    "category": "Equity",
+    "sub_category": "Equity Securities (GEM)",
+    "ccass": "Y"
+  },
   "08601": {
     "name": "BOLTEK",
     "category": "Equity",
@@ -16578,7 +16584,7 @@
     "ccass": "Y"
   },
   "09963": {
-    "name": "TRANSTECH",
+    "name": "TRANSTECH OPTEL",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
