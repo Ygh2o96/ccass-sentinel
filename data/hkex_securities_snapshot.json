@@ -2933,6 +2933,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "00625": {
+    "name": "SHEIN-W",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "00626": {
     "name": "PUBLIC FIN HOLD",
     "category": "Equity",
@@ -3480,7 +3486,7 @@
     "ccass": "Y"
   },
   "00745": {
-    "name": "CN CULTURE-2000",
+    "name": "CN CULTURE GP",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -4380,7 +4386,7 @@
     "ccass": "Y"
   },
   "00948": {
-    "name": "ALPHA PRO HLDGS",
+    "name": "ALPHA PRO H-10K",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -7788,7 +7794,7 @@
     "ccass": "Y"
   },
   "01745": {
-    "name": "LVJI TECH-NEW",
+    "name": "LVJI TECH",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -7824,7 +7830,7 @@
     "ccass": "Y"
   },
   "01751": {
-    "name": "AI ENERGY ENG",
+    "name": "AI ENERGY E-2K",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -8088,7 +8094,7 @@
     "ccass": "Y"
   },
   "01803": {
-    "name": "BJ SPORTS & ENT",
+    "name": "BJ SPORTS&E-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -8790,7 +8796,7 @@
     "ccass": "Y"
   },
   "01953": {
-    "name": "RIMBACO",
+    "name": "SFQ GLOBAL",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -9169,6 +9175,12 @@
   },
   "02039": {
     "name": "CIMC",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02041": {
+    "name": "MEDCAPTAIN",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12005,12 +12017,6 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02900": {
-    "name": "LVJI TECH-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "02901": {
     "name": "FANTASIA-OLD",
     "category": "Equity",
@@ -12023,14 +12029,8 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02905": {
-    "name": "CN CULTURE-20K",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "02908": {
-    "name": "BJ SPORTS & ENT",
+    "name": "BJ SPORTS&E-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12049,6 +12049,24 @@
   },
   "02912": {
     "name": "EASYKNIT INT'L",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02913": {
+    "name": "TIAN CHENG HLDG",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02914": {
+    "name": "ALPHA PRO H-20K",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02918": {
+    "name": "AI ENERGY E-10K",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -15959,8 +15977,8 @@
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
   },
-  "08578": {
-    "name": "GUOEN HLDGS RTS",
+  "08580": {
+    "name": "KPM HOLDING RTS",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -16123,6 +16141,12 @@
   },
   "09611": {
     "name": "LONGCHEER",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "09615": {
+    "name": "MECH-MIND ROBOT",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -16380,7 +16404,7 @@
     "ccass": "Y"
   },
   "09888": {
-    "name": "BIDU-SW",
+    "name": "BIDU-W",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -16872,7 +16896,7 @@
     "ccass": "Y"
   },
   "89888": {
-    "name": "BIDU-SWR",
+    "name": "BIDU-WR",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"

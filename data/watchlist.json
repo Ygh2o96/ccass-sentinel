@@ -3436,6 +3436,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "00625",
+    "name": "SHEIN-W",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-09-05 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "00626",
     "name": "PUBLIC FIN HOLD",
     "tier": "HIGH",
@@ -10713,6 +10720,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02041",
+    "name": "MEDCAPTAIN",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-09-05 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02048",
     "name": "E-HOUSE ENT",
     "tier": "HIGH",
@@ -13946,6 +13960,27 @@
     "name": "EASYKNIT INT'L",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-08-29 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02913",
+    "name": "TIAN CHENG HLDG",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-09-05 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02914",
+    "name": "ALPHA PRO H-20K",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-09-05 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02918",
+    "name": "AI ENERGY E-10K",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-09-05 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -19007,6 +19042,13 @@
     "sub_category": "Equity Securities (GEM)"
   },
   {
+    "code": "08580",
+    "name": "KPM HOLDING RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-09-05 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (GEM)"
+  },
+  {
     "code": "08600",
     "name": "WLS HOLDINGS",
     "tier": "HIGH",
@@ -19202,6 +19244,13 @@
     "code": "09611",
     "name": "龙旗科技 Longcheer",
     "tier": "STANDARD"
+  },
+  {
+    "code": "09615",
+    "name": "MECH-MIND ROBOT",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-09-05 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
   },
   {
     "code": "09616",
