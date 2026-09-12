@@ -13984,6 +13984,41 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02919",
+    "name": "GBA AI COMP-2K",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-09-12 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02920",
+    "name": "BONJOUR HOLD",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-09-12 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02921",
+    "name": "CAPITAL IND FIN",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-09-12 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02922",
+    "name": "REALORD TECH",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-09-12 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02923",
+    "name": "CENTURY GP INTL",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-09-12 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02929",
     "name": "STERLING GP-OLD",
     "tier": "HIGH",
@@ -14406,6 +14441,13 @@
     "name": "INGENIC",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-08-29 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "03231",
+    "name": "EXCELLAND ROBOT",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-09-12 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -19811,6 +19853,13 @@
     "code": "09973",
     "name": "Chery Automobile Co., Ltd. - H",
     "tier": "STANDARD"
+  },
+  {
+    "code": "09976",
+    "name": "LONGSYS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-09-12 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
   },
   {
     "code": "09978",

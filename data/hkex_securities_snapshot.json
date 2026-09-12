@@ -35,12 +35,6 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "00007": {
-    "name": "WISDOM WEALTH",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "00008": {
     "name": "PCCW",
     "category": "Equity",
@@ -2742,7 +2736,7 @@
     "ccass": "Y"
   },
   "00585": {
-    "name": "IMAGI INT'L-500",
+    "name": "IMAGI INT'L",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -4704,7 +4698,7 @@
     "ccass": "Y"
   },
   "01027": {
-    "name": "ASIA STRAT-1K",
+    "name": "ASIA STRAT TECH",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -4854,7 +4848,7 @@
     "ccass": "Y"
   },
   "01063": {
-    "name": "SUNCORP TEC-NEW",
+    "name": "SUNCORP TECH",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -5568,7 +5562,7 @@
     "ccass": "Y"
   },
   "01218": {
-    "name": "EASYKNIT INT'L",
+    "name": "EASYKNIT-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -6318,7 +6312,7 @@
     "ccass": "Y"
   },
   "01396": {
-    "name": "GBA AI COMP",
+    "name": "GBA AI COMP-500",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -10854,7 +10848,7 @@
     "ccass": "Y"
   },
   "02490": {
-    "name": "LC LOGISTICS",
+    "name": "LC HOLDING",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12023,32 +12017,14 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02903": {
-    "name": "SUNCORP TEC-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "02908": {
     "name": "BJ SPORTS&E-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02909": {
-    "name": "IMAGI INT'L-8K",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02910": {
-    "name": "ASIA STRAT-10K",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "02912": {
-    "name": "EASYKNIT INT'L",
+    "name": "EASYKNIT-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12071,6 +12047,36 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "02919": {
+    "name": "GBA AI COMP-2K",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02920": {
+    "name": "BONJOUR HOLD",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02921": {
+    "name": "CAPITAL IND FIN",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02922": {
+    "name": "REALORD TECH",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02923": {
+    "name": "CENTURY GP INTL",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "03200": {
     "name": "HANS CNC",
     "category": "Equity",
@@ -12079,6 +12085,12 @@
   },
   "03223": {
     "name": "INGENIC",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "03231": {
+    "name": "EXCELLAND ROBOT",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -15678,7 +15690,7 @@
     "ccass": "Y"
   },
   "08446": {
-    "name": "BRIGHTSTAR-NEW",
+    "name": "BRIGHTSTAR TECH",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15967,12 +15979,6 @@
   },
   "08549": {
     "name": "GOLDEN LEAF INT",
-    "category": "Equity",
-    "sub_category": "Equity Securities (GEM)",
-    "ccass": "Y"
-  },
-  "08577": {
-    "name": "BRIGHTSTAR-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -16639,6 +16645,12 @@
   },
   "09973": {
     "name": "CHERY AUTO",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "09976": {
+    "name": "LONGSYS",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
