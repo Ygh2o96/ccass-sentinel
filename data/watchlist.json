@@ -13977,6 +13977,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02917",
+    "name": "AI ENERGY E RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-09-19 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02918",
     "name": "AI ENERGY E-10K",
     "tier": "HIGH",
@@ -14019,10 +14026,38 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02925",
+    "name": "JINTAI ENERGY H",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-09-19 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02927",
+    "name": "HARBOUR D RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-09-19 (HKEX ListOfSecurities)",
+    "sub_category": "Investment Companies"
+  },
+  {
+    "code": "02928",
+    "name": "HK ROBOTICS RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-09-19 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02929",
     "name": "STERLING GP-OLD",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-04-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02930",
+    "name": "ABLE DIGI-100",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-09-19 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -16332,6 +16367,13 @@
     "name": "XUNLONG SCITECH",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-07-04 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "06727",
+    "name": "TRANSWARP",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-09-19 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -19088,6 +19130,13 @@
     "name": "KPM HOLDING RTS",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-09-05 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (GEM)"
+  },
+  {
+    "code": "08581",
+    "name": "HK ENT INTL RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-09-19 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (GEM)"
   },
   {
