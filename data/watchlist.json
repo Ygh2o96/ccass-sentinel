@@ -13977,6 +13977,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02915",
+    "name": "YUNJI",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-09-26 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02917",
     "name": "AI ENERGY E RTS",
     "tier": "HIGH",
@@ -14065,6 +14072,13 @@
     "name": "NUOBIKAN-OLD",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-04-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02932",
+    "name": "ZHENGWEI GP RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-09-26 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -19084,6 +19098,13 @@
     "sub_category": "Equity Securities (GEM)"
   },
   {
+    "code": "08567",
+    "name": "GF HEALTHCARE",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-09-26 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (GEM)"
+  },
+  {
     "code": "08568",
     "name": "WT GROUP RTS",
     "tier": "HIGH",
@@ -19109,6 +19130,13 @@
     "name": "CH NETCOMTECH",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-07-04 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (GEM)"
+  },
+  {
+    "code": "08573",
+    "name": "SINO ENGY CONS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-09-26 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (GEM)"
   },
   {
@@ -19514,6 +19542,13 @@
     "name": "SF INTRA-CITY",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-04-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "09856",
+    "name": "LIGENT",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-09-26 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {

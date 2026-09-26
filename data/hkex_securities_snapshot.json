@@ -1002,7 +1002,7 @@
     "ccass": "Y"
   },
   "00199": {
-    "name": "ITC PROPERTIES",
+    "name": "ITC NEOCLOUD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -3432,7 +3432,7 @@
     "ccass": "Y"
   },
   "00730": {
-    "name": "CAPITAL IND FIN",
+    "name": "CAPITAL IND-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -4068,7 +4068,7 @@
     "ccass": "Y"
   },
   "00876": {
-    "name": "KAISA HEALTH",
+    "name": "QH BIO PHARMA",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -4380,7 +4380,7 @@
     "ccass": "Y"
   },
   "00948": {
-    "name": "ALPHA PRO H-10K",
+    "name": "ALPHA PRO HLDGS",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -5460,7 +5460,7 @@
     "ccass": "Y"
   },
   "01196": {
-    "name": "REALORD TECH",
+    "name": "REALORD TEC-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -7824,7 +7824,7 @@
     "ccass": "Y"
   },
   "01751": {
-    "name": "AI ENERGY E-2K",
+    "name": "AI ENERGY ENG",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -8088,7 +8088,7 @@
     "ccass": "Y"
   },
   "01803": {
-    "name": "BJ SPORTS&E-NEW",
+    "name": "BJ SPORTS & ENT",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -9318,7 +9318,7 @@
     "ccass": "Y"
   },
   "02113": {
-    "name": "CENTURY GP INTL",
+    "name": "CENTURY GP-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12011,12 +12011,6 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02908": {
-    "name": "BJ SPORTS&E-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "02912": {
     "name": "EASYKNIT-OLD",
     "category": "Equity",
@@ -12029,20 +12023,14 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02914": {
-    "name": "ALPHA PRO H-20K",
+  "02915": {
+    "name": "YUNJI",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
   "02917": {
     "name": "AI ENERGY E RTS",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02918": {
-    "name": "AI ENERGY E-10K",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12060,37 +12048,25 @@
     "ccass": "Y"
   },
   "02921": {
-    "name": "CAPITAL IND FIN",
+    "name": "CAPITAL IND-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
   "02922": {
-    "name": "REALORD TECH",
+    "name": "REALORD TEC-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
   "02923": {
-    "name": "CENTURY GP INTL",
+    "name": "CENTURY GP-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
   "02925": {
     "name": "JINTAI ENERGY H",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02927": {
-    "name": "HARBOUR D RTS",
-    "category": "Equity",
-    "sub_category": "Investment Companies",
-    "ccass": "Y"
-  },
-  "02928": {
-    "name": "HK ROBOTICS RTS",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12103,6 +12079,12 @@
   },
   "02930": {
     "name": "ABLE DIGI-100",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02932": {
+    "name": "ZHENGWEI GP RTS",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -16019,8 +16001,14 @@
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
   },
-  "08581": {
-    "name": "HK ENT INTL RTS",
+  "08567": {
+    "name": "GF HEALTHCARE",
+    "category": "Equity",
+    "sub_category": "Equity Securities (GEM)",
+    "ccass": "Y"
+  },
+  "08573": {
+    "name": "SINO ENGY CONS",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -16339,6 +16327,12 @@
   },
   "09699": {
     "name": "SF INTRA-CITY",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "09856": {
+    "name": "LIGENT",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
