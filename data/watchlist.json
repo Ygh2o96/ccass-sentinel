@@ -13984,6 +13984,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02916",
+    "name": "TECHTRONIC-500",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-10-03 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02917",
     "name": "AI ENERGY E RTS",
     "tier": "HIGH",
@@ -14082,6 +14089,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02933",
+    "name": "YUK WING GP RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-10-03 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02934",
     "name": "SANDMARTIN-OLD",
     "tier": "HIGH",
@@ -14101,6 +14115,13 @@
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-05-02 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02937",
+    "name": "LONG INV C RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-10-03 (HKEX ListOfSecurities)",
+    "sub_category": "Investment Companies"
   },
   {
     "code": "02938",
@@ -14490,6 +14511,13 @@
     "name": "INGENIC",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-08-29 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "03228",
+    "name": "KINWONG",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-10-03 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -15151,6 +15179,13 @@
     "name": "ROKAE ROBOTICS",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-07-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "03757",
+    "name": "ROBOTECHNIK",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-10-03 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -16391,10 +16426,24 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "06731",
+    "name": "DIRECT DRIVE",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-10-03 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "06745",
     "name": "BEFAR GROUP",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-07-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "06802",
+    "name": "CAMSENSE",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-10-03 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -19168,6 +19217,20 @@
     "sub_category": "Equity Securities (GEM)"
   },
   {
+    "code": "08582",
+    "name": "QINGDA ORI-4000",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-10-03 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (GEM)"
+  },
+  {
+    "code": "08583",
+    "name": "CB GLOBAL",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-10-03 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (GEM)"
+  },
+  {
     "code": "08600",
     "name": "WLS HOLDINGS",
     "tier": "HIGH",
@@ -19346,6 +19409,13 @@
     "code": "09606",
     "name": "Duality Biotherapeutics, Inc. ",
     "tier": "STANDARD"
+  },
+  {
+    "code": "09607",
+    "name": "RA MATERIALS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-10-03 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
   },
   {
     "code": "09608",
