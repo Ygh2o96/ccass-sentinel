@@ -6734,6 +6734,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "01256",
+    "name": "ESWIN COMPUTING",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-10-10 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "01257",
     "name": "CEB GREENTECH",
     "tier": "HIGH",
@@ -19182,6 +19189,13 @@
     "sub_category": "Equity Securities (GEM)"
   },
   {
+    "code": "08572",
+    "name": "GLORY FLAME",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-10-10 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (GEM)"
+  },
+  {
     "code": "08573",
     "name": "SINO ENGY CONS",
     "tier": "HIGH",
@@ -19228,6 +19242,13 @@
     "name": "CB GLOBAL",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-10-03 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (GEM)"
+  },
+  {
+    "code": "08585",
+    "name": "CAPITAL FIN",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-10-10 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (GEM)"
   },
   {
