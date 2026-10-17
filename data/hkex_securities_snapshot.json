@@ -1157,12 +1157,6 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "00232": {
-    "name": "CON AERO TECH",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "00234": {
     "name": "NEW CENTURY GP",
     "category": "Equity",
@@ -1393,12 +1387,6 @@
   },
   "00285": {
     "name": "BYD ELECTRONIC",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "00286": {
-    "name": "AIDIGONG",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -1789,12 +1777,6 @@
   },
   "00361": {
     "name": "HANFORT DEV H",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "00362": {
-    "name": "C ZENITH CHEM",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -3432,7 +3414,7 @@
     "ccass": "Y"
   },
   "00730": {
-    "name": "CAPITAL IND-NEW",
+    "name": "CAPITAL IND FIN",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -4283,12 +4265,6 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "00924": {
-    "name": "KHOON GROUP",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "00926": {
     "name": "BESUNYEN",
     "category": "Equity",
@@ -4302,7 +4278,7 @@
     "ccass": "Y"
   },
   "00928": {
-    "name": "KING INTL INV",
+    "name": "KING INTL-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -6912,7 +6888,7 @@
     "ccass": "Y"
   },
   "01548": {
-    "name": "GENSCRIPT BIO",
+    "name": "GENSCRIPT B-1K",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -7129,12 +7105,6 @@
   },
   "01597": {
     "name": "NATURE ENERGY T",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "01598": {
-    "name": "21CENTURY EDU",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -7386,7 +7356,7 @@
     "ccass": "Y"
   },
   "01657": {
-    "name": "SG GROUP HLDGS",
+    "name": "SG GROUP H-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11507,6 +11477,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "02636": {
+    "name": "TRANSSION",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "02637": {
     "name": "HAIXI PHARMA",
     "category": "Equity",
@@ -11700,7 +11676,7 @@
     "ccass": "Y"
   },
   "02687": {
-    "name": "ABLE DIGI-50",
+    "name": "ABLE DIGITAL",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12017,6 +11993,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "02911": {
+    "name": "PINE TECH RTS",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "02915": {
     "name": "YUNJI-OLD",
     "category": "Equity",
@@ -12031,12 +12013,6 @@
   },
   "02920": {
     "name": "BONJOUR H-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02921": {
-    "name": "CAPITAL IND-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12059,12 +12035,6 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02930": {
-    "name": "ABLE DIGI-100",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "02934": {
     "name": "CHINA SANDI",
     "category": "Equity",
@@ -12078,19 +12048,13 @@
     "ccass": "Y"
   },
   "02936": {
-    "name": "SG GROUP HLDGS",
+    "name": "SG GROUP H-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02937": {
-    "name": "LONG INV C RTS",
-    "category": "Equity",
-    "sub_category": "Investment Companies",
-    "ccass": "Y"
-  },
   "02938": {
-    "name": "KING INTL INV",
+    "name": "KING INTL-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12107,8 +12071,32 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02944": {
-    "name": "UNI HEALTH RTS",
+  "02941": {
+    "name": "KING INTL I RTS",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02942": {
+    "name": "STAR GROUP ASIA",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02943": {
+    "name": "BILLION IND",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02945": {
+    "name": "GENSCRIPT B-2K",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02947": {
+    "name": "DEEPZERO",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -14412,7 +14400,7 @@
     "ccass": "Y"
   },
   "08026": {
-    "name": "CB GLOBAL",
+    "name": "CB GLOBAL-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -14766,7 +14754,7 @@
     "ccass": "Y"
   },
   "08128": {
-    "name": "SINO ENGY CONS",
+    "name": "SINO ENGY C-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15372,7 +15360,7 @@
     "ccass": "Y"
   },
   "08316": {
-    "name": "CHINA HONGBAO",
+    "name": "SWIFTLIFE",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15582,7 +15570,7 @@
     "ccass": "Y"
   },
   "08395": {
-    "name": "ZXZN QI-HOUSE",
+    "name": "ZXZN QI-HSE-5K",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15918,7 +15906,7 @@
     "ccass": "Y"
   },
   "08507": {
-    "name": "I.CENTURY HLDG",
+    "name": "CHI ECO LAND MT",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -16043,6 +16031,24 @@
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
   },
+  "08551": {
+    "name": "ZXZN QI-HSE-20K",
+    "category": "Equity",
+    "sub_category": "Equity Securities (GEM)",
+    "ccass": "Y"
+  },
+  "08552": {
+    "name": "CU VENTURE INV",
+    "category": "Equity",
+    "sub_category": "Equity Securities (GEM)",
+    "ccass": "Y"
+  },
+  "08556": {
+    "name": "S ROBOT EDU",
+    "category": "Equity",
+    "sub_category": "Equity Securities (GEM)",
+    "ccass": "Y"
+  },
   "08567": {
     "name": "GF HEALTH-OLD",
     "category": "Equity",
@@ -16056,7 +16062,7 @@
     "ccass": "Y"
   },
   "08573": {
-    "name": "SINO ENGY CONS",
+    "name": "SINO ENGY C-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -16068,7 +16074,7 @@
     "ccass": "Y"
   },
   "08583": {
-    "name": "CB GLOBAL",
+    "name": "CB GLOBAL-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"

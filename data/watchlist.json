@@ -13372,6 +13372,13 @@
     "tier": "STANDARD"
   },
   {
+    "code": "02636",
+    "name": "TRANSSION",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-10-17 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02637",
     "name": "Fujian Haixi Pharmaceuticals C",
     "tier": "CRITICAL"
@@ -13960,6 +13967,13 @@
     "name": "ASIA STRAT-10K",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-08-22 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02911",
+    "name": "PINE TECH RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-10-17 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
