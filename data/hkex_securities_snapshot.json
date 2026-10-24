@@ -3030,7 +3030,7 @@
     "ccass": "Y"
   },
   "00653": {
-    "name": "BONJOUR H-NEW",
+    "name": "BONJOUR HOLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -4188,7 +4188,7 @@
     "ccass": "Y"
   },
   "00910": {
-    "name": "CHINA SANDI",
+    "name": "CHINA SANDI-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -5436,7 +5436,7 @@
     "ccass": "Y"
   },
   "01196": {
-    "name": "REALORD TEC-NEW",
+    "name": "REALORD TECH",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -8255,12 +8255,6 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "01849": {
-    "name": "AM GROUP",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "01850": {
     "name": "BEAUTIFULLIFEGP",
     "category": "Equity",
@@ -8778,7 +8772,7 @@
     "ccass": "Y"
   },
   "01956": {
-    "name": "WENGE AI-50",
+    "name": "WENGE AI",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -9294,7 +9288,7 @@
     "ccass": "Y"
   },
   "02113": {
-    "name": "CENTURY GP-NEW",
+    "name": "CENTURY GP INTL",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11808,7 +11802,7 @@
     "ccass": "Y"
   },
   "02728": {
-    "name": "JINTAI ENGY-NEW",
+    "name": "JINTAI ENERGY H",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11993,12 +11987,6 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02911": {
-    "name": "PINE TECH RTS",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "02915": {
     "name": "YUNJI-OLD",
     "category": "Equity",
@@ -12011,38 +11999,8 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02920": {
-    "name": "BONJOUR H-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02922": {
-    "name": "REALORD TEC-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02923": {
-    "name": "CENTURY GP-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02925": {
-    "name": "JINTAI ENGY-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "02934": {
-    "name": "CHINA SANDI",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02935": {
-    "name": "WENGE AI-200",
+    "name": "CHINA SANDI-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12061,18 +12019,6 @@
   },
   "02939": {
     "name": "EASY SMART-2K",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02940": {
-    "name": "CAPITAL IND RTS",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02941": {
-    "name": "KING INTL I RTS",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12097,6 +12043,12 @@
   },
   "02947": {
     "name": "DEEPZERO",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02948": {
+    "name": "TR INTERIORS",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -14483,12 +14435,6 @@
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
   },
-  "08047": {
-    "name": "CHINA OCEAN GP",
-    "category": "Equity",
-    "sub_category": "Equity Securities (GEM)",
-    "ccass": "Y"
-  },
   "08049": {
     "name": "JILIN CHANGLONG",
     "category": "Equity",
@@ -14526,7 +14472,7 @@
     "ccass": "Y"
   },
   "08059": {
-    "name": "GLORY FLAME",
+    "name": "GLORY FLAME-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -14712,7 +14658,7 @@
     "ccass": "Y"
   },
   "08115": {
-    "name": "QINGDA ORI-500",
+    "name": "QINGDA ORIENTAL",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15126,7 +15072,7 @@
     "ccass": "Y"
   },
   "08239": {
-    "name": "CAPITAL FIN",
+    "name": "CAPITAL FIN-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -16056,19 +16002,13 @@
     "ccass": "Y"
   },
   "08572": {
-    "name": "GLORY FLAME",
+    "name": "GLORY FLAME-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
   },
   "08573": {
     "name": "SINO ENGY C-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (GEM)",
-    "ccass": "Y"
-  },
-  "08582": {
-    "name": "QINGDA ORI-4000",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -16080,7 +16020,7 @@
     "ccass": "Y"
   },
   "08585": {
-    "name": "CAPITAL FIN",
+    "name": "CAPITAL FIN-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -16656,7 +16596,7 @@
     "ccass": "Y"
   },
   "09929": {
-    "name": "SEM HLDGS",
+    "name": "YAOPOP",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
