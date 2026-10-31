@@ -2052,7 +2052,7 @@
     "ccass": "Y"
   },
   "00419": {
-    "name": "HONY MEDIA",
+    "name": "AIROBO PLATFORM",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -3108,7 +3108,7 @@
     "ccass": "Y"
   },
   "00669": {
-    "name": "TECHTRONIC-100",
+    "name": "TECHTRONIC IND",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -3277,12 +3277,6 @@
   },
   "00701": {
     "name": "CNT GROUP",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "00702": {
-    "name": "SINO OIL & GAS",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -6942,7 +6936,7 @@
     "ccass": "Y"
   },
   "01560": {
-    "name": "STAR GROUP ASIA",
+    "name": "STAR GROUP-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -9552,7 +9546,7 @@
     "ccass": "Y"
   },
   "02175": {
-    "name": "CH GENERAL EDU",
+    "name": "TRILLION HLDG",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -10086,7 +10080,7 @@
     "ccass": "Y"
   },
   "02299": {
-    "name": "BILLION IND",
+    "name": "BILLION IND-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -10451,6 +10445,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "02384": {
+    "name": "DSBJ",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "02385": {
     "name": "READBOY",
     "category": "Equity",
@@ -10668,7 +10668,7 @@
     "ccass": "Y"
   },
   "02442": {
-    "name": "EASY SMART-100",
+    "name": "EASY SMART GP",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11604,7 +11604,7 @@
     "ccass": "Y"
   },
   "02670": {
-    "name": "YUNJI-NEW",
+    "name": "YUNJI",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11784,7 +11784,7 @@
     "ccass": "Y"
   },
   "02723": {
-    "name": "DEEPZERO",
+    "name": "DEEPZERO-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11987,18 +11987,6 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02915": {
-    "name": "YUNJI-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02916": {
-    "name": "TECHTRONIC-500",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "02934": {
     "name": "CHINA SANDI-OLD",
     "category": "Equity",
@@ -12017,20 +12005,14 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02939": {
-    "name": "EASY SMART-2K",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "02942": {
-    "name": "STAR GROUP ASIA",
+    "name": "STAR GROUP-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
   "02943": {
-    "name": "BILLION IND",
+    "name": "BILLION IND-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12042,13 +12024,37 @@
     "ccass": "Y"
   },
   "02947": {
-    "name": "DEEPZERO",
+    "name": "DEEPZERO-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
   "02948": {
     "name": "TR INTERIORS",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02950": {
+    "name": "ALPHA PRO H RTS",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02952": {
+    "name": "GROWN UP GROUP",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02955": {
+    "name": "JINXUN RES-200",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02956": {
+    "name": "BRIGHT FUTURE",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12456,7 +12462,7 @@
     "ccass": "Y"
   },
   "03636": {
-    "name": "JINXUN RESOURCE",
+    "name": "JINXUN RES-500",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -13955,12 +13961,6 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "06878": {
-    "name": "DIFFER GP AUTO",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "06880": {
     "name": "MOMENTA-W",
     "category": "Equity",
@@ -14754,7 +14754,7 @@
     "ccass": "Y"
   },
   "08143": {
-    "name": "GF HEALTH-NEW",
+    "name": "GF HEALTHCARE",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -14808,7 +14808,7 @@
     "ccass": "Y"
   },
   "08159": {
-    "name": "CU VENTURE INV",
+    "name": "CU VENTURE-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -14964,7 +14964,7 @@
     "ccass": "Y"
   },
   "08206": {
-    "name": "S ROBOT EDU",
+    "name": "S ROBOT EDU-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15984,19 +15984,19 @@
     "ccass": "Y"
   },
   "08552": {
-    "name": "CU VENTURE INV",
+    "name": "CU VENTURE-OLD",
+    "category": "Equity",
+    "sub_category": "Equity Securities (GEM)",
+    "ccass": "Y"
+  },
+  "08555": {
+    "name": "ASIAPAC FIN RTS",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
   },
   "08556": {
-    "name": "S ROBOT EDU",
-    "category": "Equity",
-    "sub_category": "Equity Securities (GEM)",
-    "ccass": "Y"
-  },
-  "08567": {
-    "name": "GF HEALTH-OLD",
+    "name": "S ROBOT EDU-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"

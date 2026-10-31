@@ -12256,6 +12256,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02384",
+    "name": "DSBJ",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-10-31 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02385",
     "name": "READBOY",
     "tier": "HIGH",
