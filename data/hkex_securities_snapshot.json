@@ -311,12 +311,6 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "00064": {
-    "name": "GET NICE",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "00065": {
     "name": "GRAND OCEAN AR",
     "category": "Equity",
@@ -887,12 +881,6 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "00176": {
-    "name": "SUPERACTIVE GP",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "00177": {
     "name": "JIANGSU EXPRESS",
     "category": "Equity",
@@ -1453,12 +1441,6 @@
   },
   "00298": {
     "name": "CHUANG'S CHINA",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "00299": {
-    "name": "GLORY SUN LAND",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -2365,12 +2347,6 @@
   },
   "00508": {
     "name": "DINGYI GP INV",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "00509": {
-    "name": "SUNSHINE",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -3887,12 +3863,6 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "00845": {
-    "name": "GLORIOUS PPT H",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "00846": {
     "name": "MINGFA GROUP",
     "category": "Equity",
@@ -4272,7 +4242,7 @@
     "ccass": "Y"
   },
   "00928": {
-    "name": "KING INTL-NEW",
+    "name": "KING INTL INV",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -4308,7 +4278,7 @@
     "ccass": "Y"
   },
   "00936": {
-    "name": "KAISA CAPITAL",
+    "name": "KAISACORE",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -4987,12 +4957,6 @@
   },
   "01100": {
     "name": "MAINLAND HOLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "01101": {
-    "name": "HUARONG ENERGY",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -5875,12 +5839,6 @@
   },
   "01292": {
     "name": "CM LOGISTICS",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "01293": {
-    "name": "GRAND BAOXIN",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -6882,7 +6840,7 @@
     "ccass": "Y"
   },
   "01548": {
-    "name": "GENSCRIPT B-1K",
+    "name": "GENSCRIPT BIO",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -6978,7 +6936,7 @@
     "ccass": "Y"
   },
   "01570": {
-    "name": "WEIYE HOLDINGS",
+    "name": "DJSH INT'L",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -8268,7 +8226,7 @@
     "ccass": "Y"
   },
   "01854": {
-    "name": "CHINA WANTIAN",
+    "name": "CHINA ONETECH",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -9193,12 +9151,6 @@
   },
   "02086": {
     "name": "LEADWAY TECH",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02088": {
-    "name": "XIWANG PROPERTY",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11999,12 +11951,6 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02938": {
-    "name": "KING INTL-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "02942": {
     "name": "STAR GROUP-OLD",
     "category": "Equity",
@@ -12017,12 +11963,6 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02945": {
-    "name": "GENSCRIPT B-2K",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
   "02947": {
     "name": "DEEPZERO-OLD",
     "category": "Equity",
@@ -12030,13 +11970,13 @@
     "ccass": "Y"
   },
   "02948": {
-    "name": "TR INTERIORS",
+    "name": "TR INTERIOR-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02950": {
-    "name": "ALPHA PRO H RTS",
+  "02949": {
+    "name": "GREEN POWER RTS",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12055,6 +11995,18 @@
   },
   "02956": {
     "name": "BRIGHT FUTURE",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02996": {
+    "name": "GOLDENPOWER RTS",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02998": {
+    "name": "GOLDENPOWER-4K",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12936,7 +12888,7 @@
     "ccass": "Y"
   },
   "03919": {
-    "name": "GOLDENPOWER",
+    "name": "GOLDENPOWER-2K",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -13108,12 +13060,6 @@
     "category": "Equity",
     "sub_category": "Trading Only Securities",
     "ccass": "Y"
-  },
-  "04621": {
-    "name": "CINDA 21USDPREF",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": ""
   },
   "06030": {
     "name": "CITIC SEC",
@@ -13368,7 +13314,7 @@
     "ccass": "Y"
   },
   "06162": {
-    "name": "TR INTERIORS",
+    "name": "TR INTERIOR-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -14352,7 +14298,7 @@
     "ccass": "Y"
   },
   "08026": {
-    "name": "CB GLOBAL-NEW",
+    "name": "CB GLOBAL",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -14700,7 +14646,7 @@
     "ccass": "Y"
   },
   "08128": {
-    "name": "SINO ENGY C-NEW",
+    "name": "SINO ENGY CONS",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15516,7 +15462,7 @@
     "ccass": "Y"
   },
   "08395": {
-    "name": "ZXZN QI-HSE-5K",
+    "name": "ZXZN QI-HOUSE",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15558,7 +15504,7 @@
     "ccass": "Y"
   },
   "08412": {
-    "name": "NEW AMANTE",
+    "name": "QI GROUP",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15977,20 +15923,8 @@
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
   },
-  "08551": {
-    "name": "ZXZN QI-HSE-20K",
-    "category": "Equity",
-    "sub_category": "Equity Securities (GEM)",
-    "ccass": "Y"
-  },
   "08552": {
     "name": "CU VENTURE-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (GEM)",
-    "ccass": "Y"
-  },
-  "08555": {
-    "name": "ASIAPAC FIN RTS",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -16001,20 +15935,14 @@
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
   },
+  "08557": {
+    "name": "ZJ UNITED INV",
+    "category": "Equity",
+    "sub_category": "Equity Securities (GEM)",
+    "ccass": "Y"
+  },
   "08572": {
     "name": "GLORY FLAME-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (GEM)",
-    "ccass": "Y"
-  },
-  "08573": {
-    "name": "SINO ENGY C-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (GEM)",
-    "ccass": "Y"
-  },
-  "08583": {
-    "name": "CB GLOBAL-OLD",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -16207,6 +16135,12 @@
   },
   "09618": {
     "name": "JD-SW",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "09621": {
+    "name": "RELYEZ ENERGY",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
