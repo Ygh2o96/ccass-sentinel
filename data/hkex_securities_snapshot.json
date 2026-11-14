@@ -312,7 +312,7 @@
     "ccass": "Y"
   },
   "00065": {
-    "name": "GRAND OCEAN AR",
+    "name": "GRAND OCEAN-5K",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -4152,7 +4152,7 @@
     "ccass": "Y"
   },
   "00910": {
-    "name": "CHINA SANDI-NEW",
+    "name": "CHINA SANDI",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -6078,7 +6078,7 @@
     "ccass": "Y"
   },
   "01351": {
-    "name": "BRIGHT FUTURE",
+    "name": "BRIGHT FUT-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -6612,7 +6612,7 @@
     "ccass": "Y"
   },
   "01489": {
-    "name": "GC CONSTRUCTION",
+    "name": "WISEWIN INNOTEC",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -7308,7 +7308,7 @@
     "ccass": "Y"
   },
   "01657": {
-    "name": "SG GROUP H-NEW",
+    "name": "SG GROUP HLDGS",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -8172,7 +8172,7 @@
     "ccass": "Y"
   },
   "01842": {
-    "name": "GROWN UP GROUP",
+    "name": "GROWN UP GP-NEW",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -9125,6 +9125,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "02065": {
+    "name": "AMICRO",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "02068": {
     "name": "CHALIECO",
     "category": "Equity",
@@ -9643,6 +9649,12 @@
   },
   "02205": {
     "name": "KANGQIAO SER",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02206": {
+    "name": "NEAUTUS",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -10326,7 +10338,7 @@
     "ccass": "Y"
   },
   "02369": {
-    "name": "COOLPAD GROUP",
+    "name": "COOLPAD GP-5K",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11603,6 +11615,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "02681": {
+    "name": "HOSIN ELEC",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "02682": {
     "name": "YUN LEE MARINE",
     "category": "Equity",
@@ -11934,19 +11952,7 @@
     "ccass": "Y"
   },
   "02899": {
-    "name": "ZIJIN MINING",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02934": {
-    "name": "CHINA SANDI-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (Main Board)",
-    "ccass": "Y"
-  },
-  "02936": {
-    "name": "SG GROUP H-OLD",
+    "name": "ZIJIN MIN-500",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11975,14 +11981,20 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
-  "02949": {
-    "name": "GREEN POWER RTS",
+  "02951": {
+    "name": "COOLPAD GP-4K",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
   "02952": {
-    "name": "GROWN UP GROUP",
+    "name": "GROWN UP GP-OLD",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02953": {
+    "name": "BRIGHT FUT RTS",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -11994,7 +12006,43 @@
     "ccass": "Y"
   },
   "02956": {
-    "name": "BRIGHT FUTURE",
+    "name": "BRIGHT FUT-OLD",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02957": {
+    "name": "CMOC-3000",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02958": {
+    "name": "ZIJIN MIN-2K",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02959": {
+    "name": "AOM INT'L",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02981": {
+    "name": "GRAND OCEAN RTS",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02982": {
+    "name": "GRAND OCEAN-4K",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "02984": {
+    "name": "NEW RAY MED-8K",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -12996,7 +13044,7 @@
     "ccass": "Y"
   },
   "03993": {
-    "name": "CMOC",
+    "name": "CMOC-500",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -13224,7 +13272,7 @@
     "ccass": "Y"
   },
   "06108": {
-    "name": "NEW RAY MEDIC",
+    "name": "NEW RAY MED-10K",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -14057,6 +14105,12 @@
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
   },
+  "06935": {
+    "name": "ADASPACE",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
   "06936": {
     "name": "SF HOLDING",
     "category": "Equity",
@@ -14215,6 +14269,12 @@
   },
   "07666": {
     "name": "METIS TECHBIO-P",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "07672": {
+    "name": "XINDE SEMI",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"
@@ -14418,7 +14478,7 @@
     "ccass": "Y"
   },
   "08059": {
-    "name": "GLORY FLAME-NEW",
+    "name": "GLORY FLAME",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15018,7 +15078,7 @@
     "ccass": "Y"
   },
   "08239": {
-    "name": "CAPITAL FIN-NEW",
+    "name": "CAPITAL FIN",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15642,7 +15702,7 @@
     "ccass": "Y"
   },
   "08448": {
-    "name": "UNI PRINTSHOP",
+    "name": "PREMIER INTEL",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15703,12 +15763,6 @@
   },
   "08473": {
     "name": "MI MING MART",
-    "category": "Equity",
-    "sub_category": "Equity Securities (GEM)",
-    "ccass": "Y"
-  },
-  "08475": {
-    "name": "E-STATION GTECH",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -15941,14 +15995,8 @@
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
   },
-  "08572": {
-    "name": "GLORY FLAME-OLD",
-    "category": "Equity",
-    "sub_category": "Equity Securities (GEM)",
-    "ccass": "Y"
-  },
-  "08585": {
-    "name": "CAPITAL FIN-OLD",
+  "08561": {
+    "name": "OCEAN STAR TECH",
     "category": "Equity",
     "sub_category": "Equity Securities (GEM)",
     "ccass": "Y"
@@ -16483,6 +16531,12 @@
   },
   "09916": {
     "name": "XINGYE WULIAN",
+    "category": "Equity",
+    "sub_category": "Equity Securities (Main Board)",
+    "ccass": "Y"
+  },
+  "09917": {
+    "name": "DENGLIN TECH-P",
     "category": "Equity",
     "sub_category": "Equity Securities (Main Board)",
     "ccass": "Y"

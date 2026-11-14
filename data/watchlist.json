@@ -10760,6 +10760,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02065",
+    "name": "AMICRO",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-11-14 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02068",
     "name": "CHALIECO",
     "tier": "HIGH",
@@ -11373,6 +11380,13 @@
     "name": "KANGQIAO SER",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-04-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02206",
+    "name": "NEAUTUS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-11-14 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -13551,6 +13565,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02681",
+    "name": "HOSIN ELEC",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-11-14 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02682",
     "name": "YUN LEE MARINE",
     "tier": "HIGH",
@@ -14446,10 +14467,31 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "02981",
+    "name": "GRAND OCEAN RTS",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-11-14 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02982",
+    "name": "GRAND OCEAN-4K",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-11-14 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "02983",
     "name": "HESAI-W",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-07-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "02984",
+    "name": "NEW RAY MED-8K",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-11-14 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -16887,6 +16929,13 @@
     "sub_category": "Equity Securities (Main Board)"
   },
   {
+    "code": "06935",
+    "name": "ADASPACE",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-11-14 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
     "code": "06936",
     "name": "SF HOLDING",
     "tier": "HIGH",
@@ -17065,6 +17114,13 @@
     "name": "METIS TECHBIO-P",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-05-16 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "07672",
+    "name": "XINDE SEMI",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-11-14 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
@@ -19905,6 +19961,13 @@
     "name": "XINGYE WULIAN",
     "tier": "HIGH",
     "source": "AUTO-DISCOVERED 2026-04-11 (HKEX ListOfSecurities)",
+    "sub_category": "Equity Securities (Main Board)"
+  },
+  {
+    "code": "09917",
+    "name": "DENGLIN TECH-P",
+    "tier": "HIGH",
+    "source": "AUTO-DISCOVERED 2026-11-14 (HKEX ListOfSecurities)",
     "sub_category": "Equity Securities (Main Board)"
   },
   {
